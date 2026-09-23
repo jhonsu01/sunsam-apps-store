@@ -1,0 +1,42 @@
+name: CI Sunsam Apps Store
+on: [push]
+
+jobs:
+  android:
+    runs-on: windows   # runner local (labels: windows, ci) — sin contenedor
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compilar APK debug
+        shell: cmd
+        run: gradlew.bat assembleDebug --no-daemon
+
+      - name: Compilar AAB (bundle) debug
+        shell: cmd
+        run: gradlew.bat bundleDebug --no-daemon
+
+      - name: Subir APK como artefacto
+        uses: actions/upload-artifact@v3
+        with:
+          name: sunsam-store-debug
+          path: android/app/build/outputs/apk/debug/*.apk
+
+  web:
+    runs-on: windows
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar catalogo y store-release.json
+        shell: pwsh
+        run: |
+          $errores = @()
+          Get-ChildItem catalog -Filter *.json | ForEach-Object {
+            try { Get-Content $_.FullName -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null }
+            catch { $errores += "JSON invalido: $($_.Name)" }
+          }
+          try { Get-Content store-release.json -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null }
+          catch { $errores += "JSON invalido: store-release.json" }
+          if ($errores) { $errores | ForEach-Object { Write-Host "ERROR: $_" }; exit 1 }
+          Write-Host "Catalogo y store-release.json validos."
