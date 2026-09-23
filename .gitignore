@@ -1,0 +1,24 @@
+# Firma: NUNCA al repo
+*.jks
+*.keystore
+keystore.properties
+.secrets/
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.kotlin/
+
+# Binarios (se publican en GitHub Releases, no en git)
+*.apk
+*.aab
+*.msi
+*.exe
+dist/
+
+__pycache__/
+.DS_Store

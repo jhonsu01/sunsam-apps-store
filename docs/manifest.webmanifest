@@ -1,0 +1,12 @@
+{
+  "name": "Sunsam Apps Store",
+  "short_name": "Sunsam Apps",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f0d14",
+  "theme_color": "#f97316",
+  "icons": [
+    { "src": "logo.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "img/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

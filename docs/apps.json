@@ -1,0 +1,690 @@
+{
+  "schema": 1,
+  "generated": "2026-09-23",
+  "store": {
+    "name": "Sunsam Apps Store",
+    "author": "Jhon Supelano (jhonsu01)",
+    "repo": "jhonsu01/sunsam-apps-store",
+    "site": "https://jhonsu01.github.io/sunsam-apps-store/",
+    "binaries": "https://github.com/jhonsu01/sunsam-apps-store/releases/download",
+    "client": {
+      "package": "com.jhonsu01.sunsamstore",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "minSdk": 26,
+      "size": 2532859,
+      "sha256": "379c1e83ed2d1fcdd3a5a8d9a4c6584216b649da0159d21b945354881da27bfe",
+      "certSha256": "bc79fc700a87c565f5e54b6c4045527dda46ddd919232027a7d43376c4f0d92e",
+      "file": "SunsamAppsStore-1.0.0.apk",
+      "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/store-v1.0.0/SunsamAppsStore-1.0.0.apk"
+    }
+  },
+  "categories": {
+    "seguridad": "Seguridad y privacidad",
+    "productividad": "Productividad",
+    "negocios": "Negocios",
+    "entretenimiento": "Entretenimiento",
+    "herramientas": "Herramientas"
+  },
+  "apps": [
+    {
+      "id": "opencallshield",
+      "name": "OpenCallShield",
+      "tagline": "Bloquea llamadas SPAM con una base colaborativa y abierta",
+      "category": "seguridad",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/OpenCallShield",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.opencallshield",
+      "status": "play",
+      "updated": "2026-08-30",
+      "description": "Alternativa privada y descentralizada a Truecaller. OpenCallShield usa el servicio oficial de filtrado de llamadas de Android (10 o superior) para rechazar o silenciar llamadas SPAM antes de que suene el teléfono.\n\nTodo se decide en tu dispositivo con un motor de reglas y una base local; la lista de números reportados se sincroniza con un archivo público en GitHub al que cualquiera puede aportar.",
+      "features": [
+        "Bloqueo automático: rechaza o silencia las llamadas SPAM",
+        "Motor de reglas: contactos permitidos, números reportados y prefijos sospechosos",
+        "Bloqueo de llamadas por país",
+        "Base colaborativa pública con sincronización diaria",
+        "Historial de llamadas filtradas y reportes propios",
+        "Código abierto (MIT), sin anuncios ni rastreadores"
+      ],
+      "android": {
+        "file": "OpenCallShield-v1.4.3-release.apk",
+        "url": "https://github.com/jhonsu01/OpenCallShield/releases/download/v1.4.3/OpenCallShield-v1.4.3-release.apk",
+        "minAndroid": "10",
+        "package": "com.jhonsu01.opencallshield",
+        "versionCode": 10403,
+        "versionName": "1.4.3",
+        "minSdk": 29,
+        "size": 43634383,
+        "sha256": "5a84999f6b701b0eb56993b9873b43f772599669562e1984402d95c7126b3033",
+        "certSha256": "0d1fb925785082128eb9342aa814782ebf46b39082398d12426abadcfafbeec8"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "safevault",
+      "name": "SafeVault",
+      "tagline": "IA en tu teléfono detecta fotos sensibles y las cifra",
+      "category": "seguridad",
+      "license": "Propietaria",
+      "status": "review",
+      "updated": "2026-09-21",
+      "description": "SafeVault analiza tu galería y tu cámara con modelos de IA que se ejecutan dentro del teléfono, decide qué imágenes son sensibles (documentos, tarjetas, capturas privadas) y las guarda en una bóveda cifrada con AES-256 que solo abre tu huella, el bloqueo del teléfono o tu contraseña.\n\nNo tiene servidor propio: la única conexión a internet es la descarga inicial de los modelos. Cero nube, cero cuentas.",
+      "features": [
+        "Guardián automático: analiza cada foto nueva en segundo plano",
+        "Router de consenso entre varios modelos on-device",
+        "Bóveda cifrada AES-256 con huella, bloqueo del sistema o contraseña",
+        "Revisión manual de lo que la IA marca como dudoso",
+        "8 idiomas y modo oscuro",
+        "Android 9 o superior"
+      ],
+      "android": {
+        "file": "SafeVault-v0.6.1.apk",
+        "minAndroid": "9",
+        "package": "com.jhonsu.safevault",
+        "versionCode": 12,
+        "versionName": "0.6.1",
+        "minSdk": 28,
+        "size": 46703687,
+        "sha256": "5b28fa410468d2f688830e6bb1b98e629052a1981ce3a2d4d94c4450f5c1923b",
+        "certSha256": "c087d48106afb899af4b05dcd2bd7c9abe29b5ac849e3f30806fec201e2dee28",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/safevault-v0.6.1/SafeVault-v0.6.1.apk"
+      },
+      "notes": "En pruebas de Google Play (v0.6.2). El APK directo es la versión 0.6.1.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp",
+        "s6.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": false
+    },
+    {
+      "id": "idpersonalsecure",
+      "name": "IDPersonalSecure",
+      "tagline": "Tu tarjetero digital cifrado, sin nube",
+      "category": "seguridad",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/IDPersonalSecure",
+      "updated": "2026-07-12",
+      "description": "Bóveda personal para tus documentos de identidad, en Android y en Windows. Todo se cifra localmente con AES-256-GCM y una clave derivada de tu PIN; ningún documento se guarda en texto plano ni sale del dispositivo.\n\nPuedes exportar tu bóveda en un archivo .securevault desde un equipo e importarla en el otro.",
+      "features": [
+        "Cifrado AES-256-GCM con clave derivada del PIN (PBKDF2, 210 000 iteraciones)",
+        "Documentos con fecha de expedición y vencimiento, filtros y búsqueda",
+        "Adjuntos en PDF o imagen",
+        "Exportación e importación entre Android y Windows",
+        "Offline-first y modo oscuro"
+      ],
+      "android": {
+        "file": "IDPersonalSecure-0.5.0.apk",
+        "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.apk",
+        "minAndroid": "8.0",
+        "package": "com.idpersonalsecure.app",
+        "versionCode": 500,
+        "versionName": "0.5.0",
+        "minSdk": 26,
+        "size": 8107712,
+        "sha256": "313e17c24551e629afa61411527d6b9e645cc2edab6856baf4dc1bba7c0c668c",
+        "certSha256": "f4e8f801b2318600c80ee10df8e8d83a514e81ba56ba3d8b29e8c72ea09818e5"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "0.5.0",
+        "size": 221110272,
+        "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.msi"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "docuscaner",
+      "name": "Docu Scaner 150%",
+      "tagline": "Amplía documentos de identidad al 150% listos para imprimir",
+      "category": "productividad",
+      "license": "Propietaria",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.docuscaner",
+      "status": "play",
+      "updated": "2026-08-02",
+      "description": "Amplía documentos de identidad y los deja listos para imprimir en una hoja carta con el tamaño físico exacto que piden las entidades: 150% del original (13,2 x 8,25 cm) o el factor que necesites. Pensado para papelerías, centros de fotocopiado y trámites personales.\n\nTodo el procesamiento ocurre en tu teléfono; tus documentos nunca se envían a ningún servidor.",
+      "features": [
+        "Ampliación al 100%, 150%, 200% o el factor que elijas, con medidas reales",
+        "Frente y reverso en una sola hoja carta",
+        "Modos color, blanco y negro y alto contraste",
+        "Escáner multipágina a PDF y recorte con los dedos",
+        "Bóveda cifrada con PIN y copias de seguridad AES-256",
+        "Versión para Windows (MSI)"
+      ],
+      "android": {
+        "file": "Documentos150-v1.0.6-android.apk",
+        "minAndroid": "7.0",
+        "package": "com.iddoc150",
+        "versionCode": 7,
+        "versionName": "1.0.6",
+        "minSdk": 24,
+        "size": 16173118,
+        "sha256": "3201b350ea3d0fbe12567504c4a0755e742a6a0ae38b0ee925f8554652bb74c3",
+        "certSha256": "e62c30e4ef4d618b65544b25757e98ccd371f95698b284ada79f49aa85136a80",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/docuscaner-v1.0.6/Documentos150-v1.0.6-android.apk"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "1.0.6",
+        "file": "Documentos150-v1.0.6-windows.msi",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/docuscaner-v1.0.6/Documentos150-v1.0.6-windows.msi",
+        "size": 82568136
+      },
+      "notes": "El APK directo es la edición Documentos150 (paquete com.iddoc150), que se instala aparte de la versión de Google Play. La licencia ilimitada solo se compra desde Google Play.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp",
+        "s6.webp"
+      ],
+      "openSource": false
+    },
+    {
+      "id": "printorganize",
+      "name": "PrintOrganize",
+      "tagline": "Tus fotos en Word con la medida exacta en centímetros",
+      "category": "productividad",
+      "license": "Propietaria",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.printorganize",
+      "msStoreUrl": "https://apps.microsoft.com/detail/9p11kr2pgx26",
+      "status": "play",
+      "updated": "2026-08-30",
+      "description": "Convierte una carpeta de imágenes en un documento de Word con las fotos ordenadas en cuadrícula y con el tamaño físico exacto que indiques. Si necesitas fotos de 6 x 6 cm, salen de 6 x 6 cm: ni un milímetro más.\n\nElige la carpeta, escribe la medida y pulsa Generar. La app calcula cuántas caben por hoja y guarda el .docx listo para imprimir. Sin servidores, sin cuentas y sin publicidad.",
+      "features": [
+        "Medida exacta de cada imagen en centímetros",
+        "Hojas A4, Carta, Oficio y A3, en vertical u horizontal",
+        "Modo exacto o contener, márgenes y columnas automáticos",
+        "Nombre del archivo bajo cada imagen e inclusión de subcarpetas",
+        "PNG, JPG, GIF, BMP, TIFF, WEBP y HEIC",
+        "Disponible también en Microsoft Store"
+      ],
+      "android": {
+        "file": "PrintOrganize-1.1.1.apk",
+        "minAndroid": "7.0",
+        "package": "com.jhonsu01.printorganize",
+        "versionCode": 3,
+        "versionName": "1.1.1",
+        "minSdk": 24,
+        "size": 9189038,
+        "sha256": "ab4480bde42b728961f29e58dc0d16644664ce9d001ffd94c24347bb3911f5e7",
+        "certSha256": "8968d40d1d020e8f693770392e270f24424454b1083ce8fbb5362d18ccc6dd2e",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/printorganize-v1.1.1/PrintOrganize-1.1.1.apk"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "1.1.0",
+        "file": "PrintOrganize-1.1.0.msi",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/printorganize-v1.1.1/PrintOrganize-1.1.0.msi",
+        "size": 63586908
+      },
+      "notes": "Instalada fuera de Google Play la compra integrada no funciona: para la licencia ilimitada instala desde Google Play o Microsoft Store.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp"
+      ],
+      "desktopScreenshots": [
+        "w1.webp",
+        "w2.webp",
+        "w3.webp"
+      ],
+      "openSource": false
+    },
+    {
+      "id": "compartirarchivosred",
+      "name": "Compartir Archivos RED",
+      "tagline": "Envía archivos entre Android, Windows y Linux por tu WiFi",
+      "category": "productividad",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/CompartirArchivosRED",
+      "updated": "2026-07-03",
+      "description": "Transfiere archivos en tu red local entre teléfonos Android, PC con Windows y equipos Linux. Los dispositivos se descubren solos, se emparejan con un PIN de 6 dígitos y los archivos viajan directamente por tu WiFi: sin nube y sin cables.",
+      "features": [
+        "Descubrimiento automático en la misma red",
+        "Emparejamiento seguro por PIN con expiración",
+        "Varios archivos a la vez, archivos grandes y barra de progreso",
+        "Explorador de archivos integrado",
+        "Android, Windows (MSI) y Linux (.deb)"
+      ],
+      "android": {
+        "file": "CompartirArchivosRED-0.7.0.apk",
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.apk",
+        "minAndroid": "7.0",
+        "package": "com.compartirarchivosred.app",
+        "versionCode": 7,
+        "versionName": "0.7.0",
+        "minSdk": 24,
+        "size": 16484677,
+        "sha256": "f4867d261ba720d989d76fb8ace39107b58f7f157a94d8d7cfd221c06eb24160",
+        "certSha256": "cfeadc38fbf7d61e0fee5657ee3a02d62f30cde09b0d9e9659188d5c371eca0c"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "0.7.0",
+        "size": 59794296,
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.msi"
+      },
+      "linux": {
+        "label": "Paquete .deb (amd64)",
+        "version": "0.7.0",
+        "size": 32261610,
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0-amd64.deb"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "openwirelessdisplay",
+      "name": "OpenWirelessDisplay",
+      "tagline": "Usa tu Android como segundo monitor inalámbrico del PC",
+      "category": "productividad",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/OpenWirelessDisplay",
+      "updated": "2026-06-28",
+      "description": "Alternativa de código abierto a Spacedesk: convierte uno o varios dispositivos Android en monitores secundarios inalámbricos de un PC con Windows, en espejo o extendido, dentro de la misma red WiFi.\n\nInstala el servidor en Windows (MSI) y la app en el teléfono; se encuentran solos y se vinculan con un PIN.",
+      "features": [
+        "Modo extendido: el teléfono funciona como un monitor nuevo",
+        "Varios teléfonos a la vez, cada uno con un monitor distinto",
+        "Autodetección en la red o conexión manual por IP",
+        "Emparejamiento por PIN de 6 dígitos",
+        "Baja latencia y cursor visible en monitores virtuales"
+      ],
+      "android": {
+        "file": "OpenWirelessDisplay-0.2.1.apk",
+        "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-0.2.1.apk",
+        "minAndroid": "7.0",
+        "package": "com.openwdisplay.client",
+        "versionCode": 10,
+        "versionName": "0.2.1",
+        "minSdk": 24,
+        "size": 5876500,
+        "sha256": "16c46805a9d789107f8b35b704f652b8a08c334f8d9a971d3ac07f4d6162c931",
+        "certSha256": "92acace1ecbb2112e3b55bbef4d6b24dcd36b535946f9be857c32bcb1cf30855"
+      },
+      "windows": {
+        "label": "Servidor para Windows (MSI)",
+        "version": "0.2.1",
+        "size": 59231680,
+        "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-Server-0.2.1.msi"
+      },
+      "notes": "Necesita el servidor de Windows instalado en el PC.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "paybio",
+      "name": "PayBio",
+      "tagline": "Tarjetero de cobros con QR, 100% local y con IA en el dispositivo",
+      "category": "negocios",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/PayBioApp",
+      "updated": "2026-06-30",
+      "description": "PayBio guarda tus métodos de cobro (bancos, billeteras virtuales y direcciones cripto) y los muestra como tarjetas con su código QR listo para compartir, sin conexión y sin servidores: la app ni siquiera pide permiso de internet.\n\nSube una captura de tu app bancaria y la IA local (ML Kit) crea la tarjeta sola. Incluye modo kiosco para mostradores y soporte para Android TV.",
+      "features": [
+        "Ingesta inteligente desde capturas o texto con IA en el dispositivo",
+        "Catálogo por país: bancos, billeteras y redes blockchain",
+        "Modo kiosco con PIN para mostradores y pantallas de TV",
+        "Base de datos cifrada con SQLCipher",
+        "Respaldos cifrados en .zip, sin nube",
+        "Widget de inicio y compartir QR con un toque"
+      ],
+      "android": {
+        "file": "PayBio-v1.7.1.apk",
+        "url": "https://github.com/jhonsu01/PayBioApp/releases/download/v1.7.1/PayBio-v1.7.1.apk",
+        "minAndroid": "8.0",
+        "package": "com.local.paybio",
+        "versionCode": 11,
+        "versionName": "1.7.1",
+        "minSdk": 26,
+        "size": 80479999,
+        "sha256": "b01c71348636c0ca2a0b924184cce2a6f25547ba9330502109bae542a355c8dc",
+        "certSha256": "2178d9087babd38aed97ec3daa56839670cd83554dcc452945ba148dca14eba7"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "turnosdispensario",
+      "name": "Turnos Dispensario",
+      "tagline": "Turnero y despacho de medicamentos con OCR de fórmulas por IA",
+      "category": "negocios",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/TurnosDespachoDispensario",
+      "updated": "2026-07-11",
+      "description": "Sistema de dispensario de medicamentos con turnero, lectura de fórmulas médicas con IA e inventario por lotes (FEFO). Funciona en red local y sin internet: un servidor en Windows y apps Android para el personal, los pacientes y las pantallas del turnero.",
+      "features": [
+        "Turnos con QR y PIN, llamado en pantalla y vibración en el teléfono",
+        "OCR de fórmulas médicas con IA y buscador manual",
+        "Inventario por lotes con vencimientos y escáner de códigos de barras",
+        "Kiosko de autoservicio con ticket térmico",
+        "Autodescubrimiento del servidor en la red local",
+        "Comprobantes firmados y auditoría completa"
+      ],
+      "android": {
+        "file": "TurnosDispensario-v0.7.1.apk",
+        "label": "App del personal",
+        "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.apk",
+        "minAndroid": "7.0",
+        "package": "com.dispensario.turnos",
+        "versionCode": 10,
+        "versionName": "0.7.1",
+        "minSdk": 24,
+        "size": 5745327,
+        "sha256": "95153509516a23b816e08fe957281441a64bfcbf4c7d6b193597877bd0d79ded",
+        "certSha256": "174ca2c1a8df5d08d8e3cd75f438533f346850d96fe1517b56c2828193ec8bde"
+      },
+      "extraApks": [
+        {
+          "file": "TurnosDispensario-Paciente-v0.7.1.apk",
+          "label": "App del paciente",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Paciente-v0.7.1.apk",
+          "package": "com.dispensario.turnos.paciente",
+          "versionCode": 10,
+          "versionName": "0.7.1",
+          "minSdk": 24,
+          "size": 5745555,
+          "sha256": "a4f9c2455264554411a5a4498c6f3e5c4ce29e72d0252cfbdd0742c2bcc4d69e",
+          "certSha256": "174ca2c1a8df5d08d8e3cd75f438533f346850d96fe1517b56c2828193ec8bde"
+        },
+        {
+          "file": "TurnosDispensario-Autoservicio-v0.7.1.apk",
+          "label": "Autoservicio",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Autoservicio-v0.7.1.apk",
+          "package": "com.dispensario.turnos.autoservicio",
+          "versionCode": 10,
+          "versionName": "0.7.1",
+          "minSdk": 24,
+          "size": 5745375,
+          "sha256": "faf97c0fcf8f0b1ae3681d1214b9fb508a65101e238cf446627ce14f4124bc7a",
+          "certSha256": "174ca2c1a8df5d08d8e3cd75f438533f346850d96fe1517b56c2828193ec8bde"
+        },
+        {
+          "file": "TurnosDispensario-KioskoTV-v0.7.1.apk",
+          "label": "Kiosko TV",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-KioskoTV-v0.7.1.apk",
+          "package": "com.dispensario.turnos.kioskotv",
+          "versionCode": 10,
+          "versionName": "0.7.1",
+          "minSdk": 24,
+          "size": 5745399,
+          "sha256": "2625f8b64987ba412ae7ef846f95c98e44386e99a9ce4771535e402ca8d27d73",
+          "certSha256": "174ca2c1a8df5d08d8e3cd75f438533f346850d96fe1517b56c2828193ec8bde"
+        }
+      ],
+      "windows": {
+        "label": "Servidor y panel (MSI)",
+        "version": "0.7.1",
+        "size": 92479488,
+        "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.msi"
+      },
+      "windowsExtra": [
+        {
+          "label": "Asistente de módulo (MSI)",
+          "version": "0.7.1",
+          "size": 88875008,
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Asistente-v0.7.1.msi"
+        }
+      ],
+      "notes": "Las apps Android necesitan el servidor de Windows en la misma red.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "reciclaje",
+      "name": "Reciclaje Turnero",
+      "tagline": "Turnero inteligente para centros de reciclaje, sin internet",
+      "category": "negocios",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/ReciclajeApp",
+      "updated": "2026-07-11",
+      "description": "Sistema de gestión para centros de reciclaje: turnos, pesaje con valor calculado en vivo, recibos firmados, autorización de pagos e inventario de material embalado. Todo funciona en red local con un servidor en Windows y apps Android para cada rol.",
+      "features": [
+        "Roles: cliente, pesaje, administrador, inventario y kiosko",
+        "Turnos con QR y PIN, y aviso por vibración",
+        "Recibos firmados con HMAC-SHA256",
+        "App dedicada para TV con arranque automático",
+        "Offline-first con autodescubrimiento del servidor"
+      ],
+      "android": {
+        "file": "ReciclajeTurnero-v0.8.1.apk",
+        "label": "App multirol",
+        "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-v0.8.1.apk",
+        "minAndroid": "7.0",
+        "package": "com.reciclaje.turnero",
+        "versionCode": 9,
+        "versionName": "0.8.1",
+        "minSdk": 24,
+        "size": 5008255,
+        "sha256": "5291345fe8d58f6eb18e9d8f15c5de5f517cba71c3f2fc31c4ea9cd91714ab88",
+        "certSha256": "2375c4867d0f05d7fac305a3041ac9bfa64db1f1aa86b6c7efdb526a228a9351"
+      },
+      "extraApks": [
+        {
+          "file": "ReciclajeCliente-v0.8.1.apk",
+          "label": "App del cliente",
+          "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeCliente-v0.8.1.apk",
+          "package": "com.reciclaje.turnero.cliente",
+          "versionCode": 9,
+          "versionName": "0.8.1",
+          "minSdk": 24,
+          "size": 5008043,
+          "sha256": "65fd64c71a1b70bef97331b55155e812771b7faa4f67fc909a943674d4b93b74",
+          "certSha256": "2375c4867d0f05d7fac305a3041ac9bfa64db1f1aa86b6c7efdb526a228a9351"
+        },
+        {
+          "file": "ReciclajeKiosko-v0.8.1.apk",
+          "label": "Reciclaje TV",
+          "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeKiosko-v0.8.1.apk",
+          "package": "com.reciclaje.turnero.kiosko",
+          "versionCode": 9,
+          "versionName": "0.8.1",
+          "minSdk": 24,
+          "size": 5008283,
+          "sha256": "e148bda6dbfda9a8f5abe3adee76c899a070c9e777cb2e40250cd27898955175",
+          "certSha256": "2375c4867d0f05d7fac305a3041ac9bfa64db1f1aa86b6c7efdb526a228a9351"
+        }
+      ],
+      "windows": {
+        "label": "Servidor y panel (MSI)",
+        "version": "0.8.1",
+        "size": 92065792,
+        "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-0.8.1.msi"
+      },
+      "notes": "Las apps Android necesitan el servidor de Windows en la misma red.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "klanly",
+      "name": "Klanly",
+      "tagline": "Comunidades de pago con cursos y membresías",
+      "category": "negocios",
+      "license": "MIT",
+      "repo": "https://github.com/jhonsu01/klanly",
+      "website": "https://klanly.vercel.app",
+      "updated": "2026-08-17",
+      "description": "Plataforma de comunidades de pago al estilo Skool: los productores crean su comunidad, cobran membresías y publican cursos; los usuarios pagan, participan y aprenden. Incluye app web, app Android, app para Android TV y panel de administración para Windows.\n\nLos cobros admiten pasarela de pago o comprobante manual.",
+      "features": [
+        "Comunidades con membresía mensual en USD o COP",
+        "Cobros duales: pasarela (Wompi) o comprobante manual",
+        "App Android, Android TV y web",
+        "Panel de administración para Windows",
+        "Código abierto y gratuito"
+      ],
+      "android": {
+        "file": "Klanly-0.8.0.apk",
+        "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-0.8.0.apk",
+        "minAndroid": "7.0",
+        "package": "com.klanly.app",
+        "versionCode": 8,
+        "versionName": "0.8.0",
+        "minSdk": 24,
+        "size": 702386,
+        "sha256": "43109e615eec45232db24dcd53a5a87d3cf543b6cad4341c45a507c48996999c",
+        "certSha256": "5aec6e2b1f96e40645e0a01c84bc9914a073a4a37cf35ee12fc04ae352d8637d"
+      },
+      "extraApks": [
+        {
+          "file": "Klanly-TV-0.8.2.apk",
+          "label": "Klanly TV",
+          "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-TV-0.8.2.apk",
+          "package": "com.klanly.tv",
+          "versionCode": 3,
+          "versionName": "0.8.2",
+          "minSdk": 24,
+          "size": 668536,
+          "sha256": "cbbea6a36c3f26493128d952a6fa6ef687a0b841402eb6cf1ac28777f4ca9505",
+          "certSha256": "5aec6e2b1f96e40645e0a01c84bc9914a073a4a37cf35ee12fc04ae352d8637d"
+        }
+      ],
+      "windows": {
+        "label": "Panel de administración (MSI)",
+        "version": "0.6.0",
+        "size": 1527808,
+        "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-Admin-v0.6.0.msi"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": true
+    },
+    {
+      "id": "cuentero",
+      "name": "Cuentero Infinito",
+      "tagline": "Cuentos inventados por IA que se leen en voz alta",
+      "category": "entretenimiento",
+      "license": "Propietaria",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.cuenteroinfinito",
+      "status": "play",
+      "updated": "2026-07-30",
+      "description": "Cuentero Infinito inventa cuentos que no existían hace un minuto y te los lee en voz alta. Pídele un farero que colecciona tormentas o toca «Sorpréndeme»: ningún cuento se repite.\n\nLa versión de Google Play ejecuta el modelo dentro del teléfono y funciona sin conexión. Aquí también encuentras la versión para Windows, que genera los cuentos en tu PC, y su cliente Android por WiFi.",
+      "features": [
+        "Modelo de IA local: sin servidores, cuentas ni analítica",
+        "Modo peque: pantalla completa, letra grande y salida con PIN",
+        "Español o inglés, público infantil, juvenil o adulto",
+        "Voces del sistema con tres ritmos de lectura",
+        "Dos cuentos gratis al día; pago único para ilimitados (Google Play)"
+      ],
+      "android": {
+        "file": "cuentero-infinito-0.1.15.apk",
+        "label": "Cliente WiFi para el PC",
+        "minAndroid": "7.0",
+        "package": "com.jhonsu01.cuentero",
+        "versionCode": 115,
+        "versionName": "0.1.15",
+        "minSdk": 24,
+        "size": 3260954,
+        "sha256": "d029c2060c0fe6ac2ec7649caa2f543681d2820f6d95be76cde430d2adafc7a7",
+        "certSha256": "ab8862f6a63ff12c8abb4a2b6ca26e8f5582e22900ac5599be281151f7d82f82",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/cuentero-v0.1.15/cuentero-infinito-0.1.15.apk"
+      },
+      "windows": {
+        "label": "Cuentero para Windows (MSI)",
+        "version": "0.1.15",
+        "file": "CuenteroInfinito-0.1.15.msi",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/cuentero-v0.1.15/CuenteroInfinito-0.1.15.msi",
+        "size": 97566994
+      },
+      "notes": "El APK directo es el cliente WiFi que se conecta al PC con el Cuentero de Windows. La app que genera los cuentos en el propio teléfono está en Google Play.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp"
+      ],
+      "openSource": false
+    },
+    {
+      "id": "onionhost",
+      "name": "OnionHost",
+      "tagline": "Publica tu web en la red Tor desde tu móvil o tu PC",
+      "category": "herramientas",
+      "license": "Propietaria",
+      "msStoreUrl": "https://apps.microsoft.com/detail/9pdgf2wst45f",
+      "status": "review",
+      "updated": "2026-09-17",
+      "description": "OnionHost convierte tu página web o portafolio en un sitio de la red Tor con su propia dirección .onion, accesible desde cualquier parte del mundo. Sin registros, sin dominios que comprar y sin conocimientos técnicos: eliges la carpeta de tu web, enciendes el interruptor y tu sitio queda en línea.\n\nEl propio dispositivo sirve el sitio: no se sube nada a ningún servidor.",
+      "features": [
+        "Dirección .onion propia (servicios ocultos v3) generada en tu dispositivo",
+        "Motor Tor integrado",
+        "Interruptor por sitio, vista previa y consola de registros",
+        "Comparte la dirección o ábrela en Tor Browser",
+        "Español e inglés",
+        "1 sitio gratis; ilimitados con pago único en las tiendas"
+      ],
+      "android": {
+        "file": "OnionHost-v0.3.3-release.apk",
+        "minAndroid": "8.0",
+        "package": "com.jhonsu01.onionhost",
+        "versionCode": 12,
+        "versionName": "0.3.3",
+        "minSdk": 26,
+        "size": 18630548,
+        "sha256": "4800801186673bc1ca2afa47a7c0240e15c127af538724c98e3c9e4413063ddb",
+        "certSha256": "41ac4a3cda288bab7f6f6fbd9dac7afb91c432be313eb55d527888f32cda8fc5",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-v0.4.0/OnionHost-v0.3.3-release.apk"
+      },
+      "windows": {
+        "label": "Instalador para Windows (.exe)",
+        "version": "0.4.0",
+        "file": "OnionHost.Setup.0.4.0.exe",
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-v0.4.0/OnionHost.Setup.0.4.0.exe",
+        "size": 110552914
+      },
+      "notes": "En revisión en Google Play; ya disponible en Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp"
+      ],
+      "desktopScreenshots": [
+        "s5.webp"
+      ],
+      "cover": "cover.webp",
+      "openSource": false
+    }
+  ]
+}
