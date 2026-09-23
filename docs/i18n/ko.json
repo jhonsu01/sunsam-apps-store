@@ -1,0 +1,288 @@
+{
+  "ui": {
+    "meta_desc": "Jhon Supelano의 독립 앱 스토어: SHA-256으로 검증된 APK와 Windows 설치 프로그램을 Google Play 없이 바로 다운로드하세요.",
+    "search_placeholder": "앱 검색",
+    "nav_how": "작동 방식",
+    "nav_get_store": "스토어 설치",
+    "nav_about": "정보",
+    "lang_label": "언어",
+    "loading": "카탈로그를 불러오는 중…",
+    "load_error": "카탈로그를 불러올 수 없습니다. 연결을 확인한 후 다시 시도하세요.",
+    "footer_catalog": "공개 카탈로그 위치:",
+    "footer_note": "모든 다운로드는 SHA-256으로 검증됩니다. Google Play와 Microsoft Store는 각 소유자의 상표입니다.",
+    "hero_title": "광고도 중개자도 없는 프라이빗 앱",
+    "hero_text": "원본 릴리스에서 APK와 Windows 설치 프로그램을 바로 다운로드하세요. 모든 파일에 SHA-256 지문을 함께 공개하므로 진본인지 직접 확인할 수 있습니다.",
+    "pill_apps": "앱 {n}개",
+    "pill_platforms": "Android · Windows · Linux",
+    "pill_verified": "SHA-256 검증",
+    "cat_all": "전체",
+    "cat_aria": "카테고리",
+    "results_for": "‘{q}’ 검색 결과",
+    "all_apps": "모든 앱",
+    "count_one": "앱 {n}개",
+    "count_many": "앱 {n}개",
+    "no_results": "검색과 일치하는 앱이 없습니다.",
+    "tag_play": "Google Play 출시",
+    "tag_review": "Play 심사 중",
+    "tag_ms": "Microsoft Store",
+    "tag_oss": "오픈 소스",
+    "not_found": "카탈로그에 없는 앱입니다.",
+    "back_store": "스토어로 돌아가기",
+    "back_all": "← 모든 앱",
+    "icon_alt": "{name} 아이콘",
+    "meta_version": "Android 버전",
+    "meta_size": "APK 크기",
+    "meta_req": "요구 사항",
+    "meta_android": "Android {v} 이상",
+    "meta_updated": "업데이트",
+    "meta_license": "라이선스",
+    "screenshots": "스크린샷",
+    "shot_alt": "{name} 스크린샷 {i}",
+    "shot_desktop_alt": "{name} 데스크톱 스크린샷 {i}",
+    "about_app": "앱 정보",
+    "features": "기능",
+    "tech_info": "기술 정보",
+    "pkg": "패키지",
+    "version_code": "버전 코드",
+    "apk_sha": "APK SHA-256",
+    "cert": "서명 인증서",
+    "source_code": "소스 코드",
+    "source_private": "비공개 (바이너리만 공개)",
+    "other_sources": "다른 다운로드처",
+    "only_here": "이 스토어에서만 제공됩니다.",
+    "btn_install": "설치",
+    "btn_update": "업데이트",
+    "btn_open": "열기",
+    "btn_download_apk": "APK 다운로드",
+    "btn_github": "GitHub 코드",
+    "btn_web": "웹사이트",
+    "all_downloads": "전체 다운로드",
+    "apk_default_label": "Android APK",
+    "err_open": "앱을 열 수 없습니다.",
+    "preparing": "다운로드를 준비하는 중…",
+    "store_update_text": "스토어 새 버전이 있습니다: {v}",
+    "store_update_btn": "스토어 업데이트",
+    "downloading_short": "다운로드 중…",
+    "p_downloading": "{name} 다운로드 중… {done} / {total}",
+    "p_verifying": "SHA-256 지문을 확인하는 중…",
+    "p_installing": "Android 설치 프로그램을 여는 중…",
+    "p_confirm": "Android 창에서 설치를 확인하세요.",
+    "p_done": "설치되었습니다.",
+    "p_cancelled": "설치가 취소되었습니다.",
+    "e_permission": "Sunsam Apps가 앱을 설치할 수 있도록 허용한 후 설치를 다시 누르세요.",
+    "e_hash": "파일 지문이 카탈로그와 일치하지 않습니다. 안전을 위해 삭제했습니다.",
+    "e_network": "{name}을(를) 다운로드할 수 없습니다: {detail}",
+    "e_conflict": "서명이 다른 같은 앱(예: Google Play 버전)이 이미 설치되어 있습니다. 삭제한 후 다시 시도하세요.",
+    "e_incompatible": "이 앱은 기기와 호환되지 않습니다.",
+    "e_storage": "설치할 공간이 부족합니다.",
+    "e_other": "설치할 수 없습니다: {detail}",
+    "about_doc_title": "작동 방식",
+    "about_back": "← 스토어로 돌아가기",
+    "about_h1": "독립적이고 탈중앙화된 앱 스토어",
+    "about_intro_html": "Sunsam Apps Store는 Jhon Supelano의 앱을 Google Play 없이 한곳에 모아 둔 스토어입니다. 카탈로그는 GitHub Pages에 호스팅된 공개 파일(<a href=\"apps.json\">apps.json</a>)이며, 모든 다운로드는 앱이 게시된 GitHub 릴리스에서 바로 이루어집니다.",
+    "store_card_title": "Android용 스토어 앱",
+    "store_card_text": "탭 한 번으로 앱을 설치하고 업데이트하고 실행하세요. 설치 전에 각 APK의 SHA-256을 확인합니다. Google TV에서도 작동합니다.",
+    "btn_download": "다운로드",
+    "soon": "곧 제공",
+    "cert_label": "인증서",
+    "how_h2": "APK 설치 방법",
+    "step1": "앱 페이지에서 APK를 다운로드하세요(스토어 앱을 설치하면 휴대전화에서 모든 과정을 처리할 수 있습니다).",
+    "step2_html": "Android에서 이 출처의 설치를 허용하라고 요청합니다: <b>설정 → 알 수 없는 앱 설치</b>. 브라우저나 스토어에만 허용하세요.",
+    "step3_html": "파일을 열고 <b>설치</b>를 누르세요. 이미 Google Play 버전이 있다면 서명이 다를 수 있으므로 먼저 삭제해야 할 수도 있습니다.",
+    "trust_h2": "모든 파일을 믿을 수 있는 이유",
+    "trust_html": "각 앱 페이지에는 APK의 <b>SHA-256</b> 지문과 <b>서명 인증서</b> 지문이 표시됩니다. 스토어 앱은 다운로드한 파일의 지문을 비교한 후에 Android 설치 프로그램으로 넘기며, 일치하지 않으면 파일을 삭제하고 설치하지 않습니다. Windows에서는 <code>Get-FileHash 파일.apk</code>로 확인할 수 있습니다.",
+    "oss_h2": "오픈 소스 앱과 비공개 앱",
+    "oss_text": "일부 앱은 오픈 소스이며 저장소 링크를 제공합니다. 코드가 비공개인 앱은 설치 프로그램만 공개하며, 소스 코드는 절대 공개하지 않습니다.",
+    "shots_lang_note": "스크린샷은 앱의 원래 언어로 표시됩니다.",
+    "lb_close": "닫기",
+    "lb_prev": "이전",
+    "lb_next": "다음"
+  },
+  "labels": {
+    "Propietaria": "독점",
+    "Instalador MSI": "MSI 설치 프로그램",
+    "App del personal": "직원용 앱",
+    "App del paciente": "환자용 앱",
+    "Autoservicio": "셀프서비스",
+    "Kiosko TV": "TV 키오스크",
+    "Servidor y panel (MSI)": "서버 및 관리 패널 (MSI)",
+    "Asistente de módulo (MSI)": "창구 도우미 (MSI)",
+    "App multirol": "멀티 역할 앱",
+    "App del cliente": "고객용 앱",
+    "Reciclaje TV": "Reciclaje TV",
+    "Klanly TV": "Klanly TV",
+    "Panel de administración (MSI)": "관리자 패널 (MSI)",
+    "Cliente WiFi para el PC": "PC 연결용 Wi-Fi 클라이언트",
+    "Cuentero para Windows (MSI)": "Windows용 Cuentero (MSI)",
+    "Instalador para Windows (.exe)": "Windows 설치 프로그램 (.exe)",
+    "Servidor para Windows (MSI)": "Windows용 서버 (MSI)",
+    "Paquete .deb (amd64)": ".deb 패키지 (amd64)"
+  },
+  "categories": {
+    "seguridad": "보안 및 개인정보",
+    "productividad": "생산성",
+    "negocios": "비즈니스",
+    "entretenimiento": "엔터테인먼트",
+    "herramientas": "도구"
+  },
+  "apps": {
+    "opencallshield": {
+      "tagline": "공개 협업 목록으로 스팸 전화를 차단하세요",
+      "description": "Truecaller를 대체하는 프라이빗하고 탈중앙화된 앱입니다. OpenCallShield는 Android(10 이상)의 공식 통화 선별 서비스를 사용해 전화가 울리기 전에 스팸 전화를 거절하거나 무음으로 처리합니다.\n\n모든 판단은 규칙 엔진과 로컬 데이터베이스를 이용해 기기에서 이루어집니다. 신고된 번호 목록은 누구나 기여할 수 있는 GitHub의 공개 파일과 동기화됩니다.",
+      "features": [
+        "자동 차단: 스팸 전화를 거절하거나 무음 처리",
+        "규칙 엔진: 허용한 연락처, 신고된 번호, 의심스러운 번호 앞자리",
+        "국가별 통화 차단",
+        "매일 동기화되는 공개 협업 데이터베이스",
+        "차단된 통화 기록과 내 신고 내역",
+        "오픈 소스(MIT), 광고와 추적기 없음"
+      ]
+    },
+    "safevault": {
+      "tagline": "휴대전화 속 AI가 민감한 사진을 찾아 암호화합니다",
+      "description": "SafeVault는 휴대전화 안에서 실행되는 AI 모델로 갤러리와 카메라를 분석해 어떤 이미지가 민감한지(신분증, 카드, 개인 스크린샷 등) 판단하고, 지문·화면 잠금·비밀번호로만 열리는 AES-256 암호화 보관함에 저장합니다.\n\n자체 서버가 없으며, 인터넷에 연결하는 것은 처음 모델을 다운로드할 때뿐입니다. 클라우드도 계정도 필요 없습니다.",
+      "features": [
+        "자동 보호: 새 사진을 백그라운드에서 분석",
+        "여러 온디바이스 모델 간 합의 기반 라우팅",
+        "지문, 시스템 잠금 또는 비밀번호로 여는 AES-256 보관함",
+        "AI가 확신하지 못한 사진은 직접 검토",
+        "8개 언어와 다크 모드",
+        "Android 9 이상"
+      ],
+      "notes": "Google Play에서 테스트 중입니다(v0.6.2). 직접 다운로드하는 APK는 0.6.1 버전입니다."
+    },
+    "idpersonalsecure": {
+      "tagline": "클라우드 없는 암호화 디지털 신분증 지갑",
+      "description": "Android와 Windows에서 쓰는 신분증 개인 보관함입니다. 모든 내용은 AES-256-GCM과 PIN에서 파생한 키로 기기에서 암호화되며, 어떤 문서도 평문으로 저장되거나 기기 밖으로 나가지 않습니다.\n\n한 기기에서 보관함을 .securevault 파일로 내보내고 다른 기기에서 가져올 수 있습니다.",
+      "features": [
+        "PIN에서 파생한 키로 AES-256-GCM 암호화(PBKDF2, 210,000회 반복)",
+        "발급일과 만료일 관리, 필터와 검색",
+        "PDF 또는 이미지 첨부",
+        "Android와 Windows 간 내보내기 및 가져오기",
+        "오프라인 우선, 다크 모드 지원"
+      ]
+    },
+    "docuscaner": {
+      "tagline": "신분증을 150%로 확대해 바로 인쇄하세요",
+      "description": "신분증을 확대해 기관에서 요구하는 정확한 실제 크기로 Letter 용지에 인쇄할 수 있게 준비합니다. 원본의 150%(13.2 x 8.25cm) 또는 필요한 배율을 지원합니다. 문구점, 복사 가게, 개인 서류 업무에 알맞습니다.\n\n모든 처리는 휴대전화에서 이루어지며, 문서는 절대 서버로 전송되지 않습니다.",
+      "features": [
+        "100%, 150%, 200% 또는 원하는 배율로 실제 치수대로 확대",
+        "앞면과 뒷면을 Letter 용지 한 장에",
+        "컬러, 흑백, 고대비 모드",
+        "여러 페이지를 PDF로 스캔하고 손가락으로 자르기",
+        "PIN으로 보호되는 암호화 보관함과 AES-256 백업",
+        "Windows 버전(MSI) 제공"
+      ],
+      "notes": "직접 다운로드하는 APK는 Documentos150 에디션(패키지 com.iddoc150)으로, Google Play 버전과 별도로 설치됩니다. 무제한 라이선스는 Google Play에서만 구매할 수 있습니다."
+    },
+    "printorganize": {
+      "tagline": "사진을 센티미터 단위의 정확한 크기로 Word에 배치",
+      "description": "이미지 폴더를 지정한 실제 크기 그대로 사진이 격자로 배열된 Word 문서로 바꿔 줍니다. 6 x 6cm 사진이 필요하면 정확히 6 x 6cm로 나옵니다. 1mm도 더하지 않습니다.\n\n폴더를 고르고 크기를 입력한 뒤 생성을 누르세요. 한 페이지에 몇 장이 들어가는지 계산해 바로 인쇄할 수 있는 .docx로 저장합니다. 서버도, 계정도, 광고도 없습니다.",
+      "features": [
+        "이미지마다 센티미터 단위의 정확한 크기",
+        "A4, Letter, Legal, A3 용지, 세로 또는 가로",
+        "정확 모드 또는 맞춤 모드, 여백과 열 자동 조정",
+        "이미지 아래 파일 이름 표시, 하위 폴더 포함 가능",
+        "PNG, JPG, GIF, BMP, TIFF, WEBP, HEIC 지원",
+        "Microsoft Store에서도 제공"
+      ],
+      "notes": "Google Play 외부에서 설치하면 인앱 구매가 작동하지 않습니다. 무제한 라이선스를 원하면 Google Play 또는 Microsoft Store에서 설치하세요."
+    },
+    "compartirarchivosred": {
+      "tagline": "Wi-Fi로 Android, Windows, Linux 간 파일 전송",
+      "description": "로컬 네트워크에서 Android 휴대전화, Windows PC, Linux 컴퓨터 간에 파일을 전송합니다. 기기들이 서로를 자동으로 찾아 6자리 PIN으로 연결되고, 파일은 Wi-Fi를 통해 바로 전달됩니다. 클라우드도 케이블도 필요 없습니다.",
+      "features": [
+        "같은 네트워크의 기기를 자동으로 검색",
+        "만료되는 PIN으로 안전하게 페어링",
+        "여러 파일과 대용량 파일 동시 전송, 진행률 표시",
+        "파일 탐색기 내장",
+        "Android, Windows(MSI), Linux(.deb)"
+      ]
+    },
+    "openwirelessdisplay": {
+      "tagline": "Android를 PC의 무선 보조 모니터로",
+      "description": "Spacedesk를 대체하는 오픈 소스 앱입니다. 같은 Wi-Fi 네트워크에서 하나 이상의 Android 기기를 Windows PC의 무선 보조 모니터로 바꿔 미러링하거나 확장할 수 있습니다.\n\nWindows에 서버(MSI)를, 휴대전화에 앱을 설치하면 서로를 자동으로 찾아 PIN으로 연결됩니다.",
+      "features": [
+        "확장 모드: 휴대전화가 새 모니터처럼 작동",
+        "여러 휴대전화를 동시에 연결하고 각각 다른 화면 표시",
+        "네트워크 자동 검색 또는 IP 수동 연결",
+        "6자리 PIN으로 페어링",
+        "낮은 지연 시간, 가상 모니터에서도 커서 표시"
+      ],
+      "notes": "PC에 Windows용 서버를 설치해야 합니다."
+    },
+    "paybio": {
+      "tagline": "QR 코드가 담긴 결제 수단 지갑, 100% 로컬 실행과 온디바이스 AI",
+      "description": "PayBio는 송금받을 은행, 전자 지갑, 암호화폐 주소를 저장하고, 바로 공유할 수 있는 QR 코드가 담긴 카드로 보여 줍니다. 오프라인으로 작동하고 서버도 없습니다. 앱은 인터넷 권한조차 요청하지 않습니다.\n\n은행 앱 스크린샷을 올리면 로컬 AI(ML Kit)가 카드를 자동으로 만들어 줍니다. 매장 카운터용 키오스크 모드와 Android TV를 지원합니다.",
+      "features": [
+        "온디바이스 AI로 스크린샷이나 텍스트에서 스마트하게 가져오기",
+        "국가별 카탈로그: 은행, 지갑, 블록체인 네트워크",
+        "카운터와 TV 화면용 PIN 키오스크 모드",
+        "SQLCipher로 암호화된 데이터베이스",
+        "클라우드 없는 암호화 .zip 백업",
+        "홈 화면 위젯과 탭 한 번으로 QR 공유"
+      ]
+    },
+    "turnosdispensario": {
+      "tagline": "AI 처방전 인식 기능이 있는 번호표 및 의약품 조제 시스템",
+      "description": "번호표 발급, AI 처방전 판독, 로트별 재고 관리(FEFO)를 갖춘 약국 조제 시스템입니다. 인터넷 없이 로컬 네트워크에서 작동하며, Windows 서버와 직원·환자·호출 화면용 Android 앱으로 구성됩니다.",
+      "features": [
+        "QR과 PIN이 있는 번호표, 화면 호출과 휴대전화 진동 알림",
+        "AI 처방전 OCR과 수동 검색",
+        "유효기간과 바코드 스캐너를 지원하는 로트별 재고",
+        "감열 영수증을 출력하는 셀프 접수 키오스크",
+        "로컬 네트워크에서 서버 자동 검색",
+        "서명된 영수증과 전체 감사 기록"
+      ],
+      "notes": "Android 앱은 같은 네트워크에 있는 Windows 서버가 필요합니다."
+    },
+    "reciclaje": {
+      "tagline": "재활용 센터를 위한 스마트 번호표 시스템, 인터넷 불필요",
+      "description": "재활용 센터 관리 시스템입니다. 번호표 발급, 금액을 실시간으로 계산하는 계량, 서명된 영수증, 지급 승인, 압축 포장된 자재 재고를 관리합니다. Windows 서버와 역할별 Android 앱으로 모두 로컬 네트워크에서 작동합니다.",
+      "features": [
+        "역할: 고객, 계량, 관리자, 재고, 키오스크",
+        "QR과 PIN이 있는 번호표와 진동 알림",
+        "HMAC-SHA256으로 서명된 영수증",
+        "자동으로 실행되는 TV 전용 앱",
+        "오프라인 우선, 서버 자동 검색"
+      ],
+      "notes": "Android 앱은 같은 네트워크에 있는 Windows 서버가 필요합니다."
+    },
+    "klanly": {
+      "tagline": "강좌와 멤버십이 있는 유료 커뮤니티",
+      "description": "Skool 같은 유료 커뮤니티 플랫폼입니다. 크리에이터는 커뮤니티를 만들고 멤버십 요금을 받고 강좌를 게시하며, 멤버는 결제하고 참여하며 배웁니다. 웹 앱, Android 앱, Android TV 앱, Windows용 관리 패널을 제공합니다.\n\n결제는 결제 게이트웨이 또는 수동 입금 증빙으로 할 수 있습니다.",
+      "features": [
+        "USD 또는 COP 월간 멤버십 커뮤니티",
+        "두 가지 결제: 게이트웨이(Wompi) 또는 수동 증빙",
+        "Android, Android TV, 웹 앱",
+        "Windows용 관리 패널",
+        "오픈 소스, 무료"
+      ]
+    },
+    "cuentero": {
+      "tagline": "AI가 지어내고 소리 내어 읽어 주는 이야기",
+      "description": "Cuentero Infinito는 1분 전에는 없던 이야기를 지어내 소리 내어 읽어 줍니다. 폭풍을 모으는 등대지기 이야기를 부탁하거나 ‘놀라게 해 줘’를 눌러 보세요. 같은 이야기는 절대 반복되지 않습니다.\n\nGoogle Play 버전은 휴대전화 안에서 모델을 실행해 오프라인에서도 작동합니다. 여기서는 PC에서 이야기를 만드는 Windows 버전과 Android용 Wi-Fi 클라이언트도 받을 수 있습니다.",
+      "features": [
+        "로컬 AI 모델: 서버, 계정, 분석 없음",
+        "어린이 모드: 전체 화면, 큰 글씨, PIN으로 종료",
+        "스페인어 또는 영어, 어린이·청소년·성인용",
+        "세 가지 읽기 속도의 시스템 음성",
+        "하루 2편 무료, 한 번 결제로 무제한(Google Play)"
+      ],
+      "notes": "직접 다운로드하는 APK는 Windows용 Cuentero가 실행 중인 PC에 연결하는 Wi-Fi 클라이언트입니다. 휴대전화에서 직접 이야기를 만드는 앱은 Google Play에 있습니다."
+    },
+    "onionhost": {
+      "tagline": "휴대전화나 PC에서 Tor 네트워크에 웹사이트 게시",
+      "description": "OnionHost는 웹사이트나 포트폴리오를 고유한 .onion 주소를 가진 Tor 네트워크 사이트로 바꿔 전 세계 어디서나 접속할 수 있게 합니다. 가입도, 도메인 구매도, 기술 지식도 필요 없습니다. 웹사이트 폴더를 고르고 스위치를 켜면 사이트가 온라인이 됩니다.\n\n사이트는 기기 자체에서 제공되며, 서버에는 아무것도 업로드되지 않습니다.",
+      "features": [
+        "기기에서 생성하는 고유 .onion 주소(v3 히든 서비스)",
+        "Tor 엔진 내장",
+        "사이트별 스위치, 미리보기, 로그 콘솔",
+        "주소를 공유하거나 Tor Browser에서 열기",
+        "스페인어와 영어",
+        "사이트 1개 무료, 스토어에서 한 번 결제하면 무제한"
+      ],
+      "notes": "Google Play에서 심사 중이며 Microsoft Store에는 이미 출시되었습니다. Windows용 직접 설치 프로그램(.exe)은 사이트 수 제한이 없습니다."
+    }
+  }
+}

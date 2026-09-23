@@ -26,6 +26,10 @@ class StoreBridge(private val activity: MainActivity, private val web: WebView) 
     @JavascriptInterface
     fun appVersionName(): String = BuildConfig.VERSION_NAME
 
+    /** Idioma de la app (sigue al sistema o al idioma por app de Android 13+), p. ej. "es-CO". */
+    @JavascriptInterface
+    fun locale(): String = activity.resources.configuration.locales[0].toLanguageTag()
+
     @JavascriptInterface
     fun canInstall(): Boolean = activity.packageManager.canRequestPackageInstalls()
 
@@ -33,7 +37,7 @@ class StoreBridge(private val activity: MainActivity, private val web: WebView) 
     @JavascriptInterface
     fun install(url: String, sha256: String, pkg: String, label: String) {
         if (!activity.packageManager.canRequestPackageInstalls()) {
-            activity.sendProgress(pkg, 0, "error", "Permite que Sunsam Apps instale apps y vuelve a pulsar Instalar.")
+            activity.sendProgress(pkg, 0, "error", "install permission required", "permission")
             activity.runOnUiThread {
                 activity.startActivity(
                     Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES, Uri.parse("package:${activity.packageName}"))

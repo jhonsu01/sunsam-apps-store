@@ -71,8 +71,14 @@ class MainActivity : Activity() {
         }
     }
 
-    fun sendProgress(pkg: String, percent: Int, state: String, message: String) {
-        val args = "${JSONObject.quote(pkg)},$percent,${JSONObject.quote(state)},${JSONObject.quote(message)}"
+    /**
+     * Informa del progreso a la web. El texto visible lo traduce la web a partir de [state] y [code]
+     * (protocolo v2); [message] queda como respaldo y como detalle técnico de los errores.
+     */
+    fun sendProgress(pkg: String, percent: Int, state: String, message: String, code: String? = null, done: Long = -1, total: Long = -1) {
+        val q = { v: String? -> if (v == null) "null" else JSONObject.quote(v) }
+        val n = { v: Long -> if (v < 0) "null" else v.toString() }
+        val args = "${q(pkg)},$percent,${q(state)},${q(message)},${q(code)},${n(done)},${n(total)}"
         runOnUiThread { web.evaluateJavascript("window.sunsamProgress && window.sunsamProgress($args)", null) }
     }
 

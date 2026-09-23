@@ -61,6 +61,11 @@ button { font: inherit; cursor: pointer; }
 .search:focus-within { border-color: var(--accent); }
 .topnav { display: flex; align-items: center; gap: 16px; margin-left: auto; white-space: nowrap; }
 .topnav a { color: var(--text); font-weight: 500; font-size: 15px; }
+.lang {
+  appearance: none; -webkit-appearance: none; font: inherit; font-size: 14px; font-weight: 500; color: var(--text);
+  background: var(--surface-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23888'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") no-repeat right 8px center / 18px;
+  border: 1px solid var(--line); border-radius: 999px; padding: 6px 30px 6px 12px; cursor: pointer;
+}
 .btn-mini { background: var(--text); color: var(--bg) !important; padding: 7px 14px; border-radius: 999px; }
 .btn-mini:hover { text-decoration: none; opacity: .9; }
 
@@ -194,6 +199,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, .shots img:focus-vis
   .hero-icons { display: none; }
   .cols { grid-template-columns: 1fr; gap: 0; }
   .topnav a:not(.btn-mini) { display: none; }
+  .lang { padding: 6px 26px 6px 10px; }
 }
 @media (max-width: 560px) {
   .topbar { flex-wrap: wrap; gap: 10px; }

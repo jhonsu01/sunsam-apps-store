@@ -1,0 +1,288 @@
+{
+  "ui": {
+    "meta_desc": "Jhon Supelano 的独立应用商店：直接下载 APK 和 Windows 安装程序，经 SHA-256 校验，不依赖 Google Play。",
+    "search_placeholder": "搜索应用",
+    "nav_how": "工作原理",
+    "nav_get_store": "安装商店",
+    "nav_about": "关于",
+    "lang_label": "语言",
+    "loading": "正在加载目录…",
+    "load_error": "无法加载目录。请检查网络连接后重试。",
+    "footer_catalog": "开放目录托管于",
+    "footer_note": "每次下载都经过 SHA-256 校验。Google Play 和 Microsoft Store 是其各自所有者的商标。",
+    "hero_title": "私密应用，无广告，无中间商",
+    "hero_text": "直接从原始发布版本下载 APK 和 Windows 安装程序。每个文件都附有 SHA-256 指纹，方便你核实其真实性。",
+    "pill_apps": "{n} 款应用",
+    "pill_platforms": "Android · Windows · Linux",
+    "pill_verified": "SHA-256 校验",
+    "cat_all": "全部",
+    "cat_aria": "分类",
+    "results_for": "“{q}”的搜索结果",
+    "all_apps": "全部应用",
+    "count_one": "{n} 款应用",
+    "count_many": "{n} 款应用",
+    "no_results": "没有符合搜索条件的应用。",
+    "tag_play": "已上架 Google Play",
+    "tag_review": "Play 审核中",
+    "tag_ms": "Microsoft Store",
+    "tag_oss": "开源",
+    "not_found": "目录中没有这款应用。",
+    "back_store": "返回商店",
+    "back_all": "← 全部应用",
+    "icon_alt": "{name} 图标",
+    "meta_version": "Android 版本",
+    "meta_size": "APK 大小",
+    "meta_req": "系统要求",
+    "meta_android": "Android {v} 及以上",
+    "meta_updated": "更新日期",
+    "meta_license": "许可证",
+    "screenshots": "截图",
+    "shot_alt": "{name} 截图 {i}",
+    "shot_desktop_alt": "{name} 桌面版截图 {i}",
+    "about_app": "关于此应用",
+    "features": "功能",
+    "tech_info": "技术信息",
+    "pkg": "包名",
+    "version_code": "版本号",
+    "apk_sha": "APK 的 SHA-256",
+    "cert": "签名证书",
+    "source_code": "源代码",
+    "source_private": "私有（仅发布二进制文件）",
+    "other_sources": "其他来源",
+    "only_here": "仅在本商店提供。",
+    "btn_install": "安装",
+    "btn_update": "更新",
+    "btn_open": "打开",
+    "btn_download_apk": "下载 APK",
+    "btn_github": "GitHub 源码",
+    "btn_web": "官方网站",
+    "all_downloads": "全部下载",
+    "apk_default_label": "Android APK",
+    "err_open": "无法打开该应用。",
+    "preparing": "正在准备下载…",
+    "store_update_text": "商店有新版本：{v}",
+    "store_update_btn": "更新商店",
+    "downloading_short": "正在下载…",
+    "p_downloading": "正在下载 {name}… {done} / {total}",
+    "p_verifying": "正在校验 SHA-256 指纹…",
+    "p_installing": "正在打开 Android 安装程序…",
+    "p_confirm": "请在 Android 窗口中确认安装。",
+    "p_done": "安装完成。",
+    "p_cancelled": "已取消安装。",
+    "e_permission": "请允许 Sunsam Apps 安装应用，然后再次点按“安装”。",
+    "e_hash": "文件指纹与目录不符。为了你的安全，已将其删除。",
+    "e_network": "无法下载 {name}：{detail}",
+    "e_conflict": "你已安装了签名不同的同款应用（例如来自 Google Play）。请先卸载后重试。",
+    "e_incompatible": "此应用与你的设备不兼容。",
+    "e_storage": "存储空间不足，无法安装。",
+    "e_other": "无法安装：{detail}",
+    "about_doc_title": "工作原理",
+    "about_back": "← 返回商店",
+    "about_h1": "独立、去中心化的应用商店",
+    "about_intro_html": "Sunsam Apps Store 将 Jhon Supelano 的应用集中在一处，不依赖 Google Play。目录是托管在 GitHub Pages 上的开放文件（<a href=\"apps.json\">apps.json</a>），每次下载都直接来自该应用在 GitHub 上的发布版本。",
+    "store_card_title": "Android 版商店应用",
+    "store_card_text": "一键安装、更新和打开应用。安装前会校验每个 APK 的 SHA-256。也支持 Google TV。",
+    "btn_download": "下载",
+    "soon": "即将推出",
+    "cert_label": "证书",
+    "how_h2": "如何安装 APK",
+    "step1": "在应用详情页下载 APK（或安装商店应用，直接在手机上完成所有操作）。",
+    "step2_html": "Android 会要求你允许从此来源安装：<b>设置 → 安装未知应用</b>。只为浏览器或商店开启即可。",
+    "step3_html": "打开文件并点按<b>安装</b>。如果你已经装了 Google Play 版本，可能需要先卸载：两者的签名可能不同。",
+    "trust_h2": "为什么每个文件都值得信赖",
+    "trust_html": "每个详情页都会显示 APK 的 <b>SHA-256</b> 指纹及其<b>签名证书</b>指纹。商店应用会在把文件交给 Android 安装程序之前比对下载文件的指纹；如果不一致，会删除文件且不安装。在 Windows 上可以用 <code>Get-FileHash 文件.apk</code> 自行核对。",
+    "oss_h2": "开源应用与私有应用",
+    "oss_text": "部分应用是开源的，并附有代码仓库链接。其他应用的代码是私有的：对于这些应用，只发布安装程序，绝不发布源代码。",
+    "shots_lang_note": "截图以应用的原始语言显示。",
+    "lb_close": "关闭",
+    "lb_prev": "上一张",
+    "lb_next": "下一张"
+  },
+  "labels": {
+    "Propietaria": "专有",
+    "Instalador MSI": "MSI 安装程序",
+    "App del personal": "员工端应用",
+    "App del paciente": "患者端应用",
+    "Autoservicio": "自助服务",
+    "Kiosko TV": "电视信息屏",
+    "Servidor y panel (MSI)": "服务器和管理面板（MSI）",
+    "Asistente de módulo (MSI)": "窗口助手（MSI）",
+    "App multirol": "多角色应用",
+    "App del cliente": "客户端应用",
+    "Reciclaje TV": "Reciclaje TV",
+    "Klanly TV": "Klanly TV",
+    "Panel de administración (MSI)": "管理面板（MSI）",
+    "Cliente WiFi para el PC": "连接电脑的 Wi-Fi 客户端",
+    "Cuentero para Windows (MSI)": "Cuentero Windows 版（MSI）",
+    "Instalador para Windows (.exe)": "Windows 安装程序（.exe）",
+    "Servidor para Windows (MSI)": "Windows 服务器（MSI）",
+    "Paquete .deb (amd64)": ".deb 软件包（amd64）"
+  },
+  "categories": {
+    "seguridad": "安全与隐私",
+    "productividad": "效率",
+    "negocios": "商务",
+    "entretenimiento": "娱乐",
+    "herramientas": "工具"
+  },
+  "apps": {
+    "opencallshield": {
+      "tagline": "借助开放的协作名单拦截骚扰电话",
+      "description": "Truecaller 的私密、去中心化替代品。OpenCallShield 使用 Android（10 及以上）官方的来电筛选服务，在手机响铃前拒接或静音骚扰电话。\n\n一切都在你的设备上通过规则引擎和本地数据库完成判断；被举报的号码名单会与 GitHub 上的一个公开文件同步，任何人都可以参与贡献。",
+      "features": [
+        "自动拦截：拒接或静音骚扰电话",
+        "规则引擎：允许的联系人、被举报号码和可疑号段",
+        "按国家/地区拦截来电",
+        "公开的协作数据库，每日同步",
+        "已拦截来电记录和你自己的举报",
+        "开源（MIT），无广告、无追踪"
+      ]
+    },
+    "safevault": {
+      "tagline": "手机端 AI 识别敏感照片并加密保存",
+      "description": "SafeVault 使用在手机本地运行的 AI 模型分析你的相册和相机，判断哪些图片属于敏感内容（证件、银行卡、私密截图），并将其存入 AES-256 加密保险箱，只能用你的指纹、手机锁屏或密码打开。\n\n它没有自己的服务器：唯一的联网操作是首次下载模型。零云端，零账号。",
+      "features": [
+        "自动守护：在后台分析每一张新照片",
+        "多个本地模型之间的共识路由",
+        "AES-256 加密保险箱，支持指纹、系统锁屏或密码",
+        "人工复核 AI 判断不确定的内容",
+        "8 种语言和深色模式",
+        "Android 9 及以上"
+      ],
+      "notes": "正在 Google Play 测试中（v0.6.2）。直接下载的 APK 为 0.6.1 版本。"
+    },
+    "idpersonalsecure": {
+      "tagline": "加密的数字证件夹，无需云端",
+      "description": "在 Android 和 Windows 上存放身份证件的个人保险箱。所有内容都使用 AES-256-GCM 和由 PIN 派生的密钥在本地加密；任何文件都不会以明文保存，也不会离开你的设备。\n\n你可以在一台设备上把保险箱导出为 .securevault 文件，再导入到另一台设备。",
+      "features": [
+        "AES-256-GCM 加密，密钥由 PIN 派生（PBKDF2，210,000 次迭代）",
+        "证件可记录签发日期和有效期，支持筛选和搜索",
+        "支持 PDF 或图片附件",
+        "在 Android 和 Windows 之间导出和导入",
+        "离线优先，支持深色模式"
+      ]
+    },
+    "docuscaner": {
+      "tagline": "将身份证件放大到 150%，即可打印",
+      "description": "放大身份证件，并按机构要求的精确物理尺寸排版到 Letter 纸上打印：原件的 150%（13.2 x 8.25 厘米），或任意你需要的比例。适合文具店、复印店和个人办事使用。\n\n所有处理都在手机上完成；你的证件绝不会被发送到任何服务器。",
+      "features": [
+        "按 100%、150%、200% 或自选比例放大，尺寸真实准确",
+        "正反两面排在同一张 Letter 纸上",
+        "彩色、黑白和高对比度模式",
+        "多页扫描为 PDF，可用手指裁剪",
+        "PIN 保护的加密保险箱和 AES-256 备份",
+        "提供 Windows 版（MSI）"
+      ],
+      "notes": "直接下载的 APK 是 Documentos150 版本（包名 com.iddoc150），会与 Google Play 版本分开安装。无限许可证只能在 Google Play 购买。"
+    },
+    "printorganize": {
+      "tagline": "按厘米精确尺寸把照片排进 Word",
+      "description": "把一个图片文件夹转换成 Word 文档，照片按网格排列，尺寸与你指定的物理尺寸完全一致。需要 6 x 6 厘米的照片，打出来就是 6 x 6 厘米，分毫不差。\n\n选择文件夹，输入尺寸，点按“生成”。应用会计算每页能放多少张，并保存一个可直接打印的 .docx。无服务器、无账号、无广告。",
+      "features": [
+        "每张图片都按厘米精确设定尺寸",
+        "支持 A4、Letter、Legal 和 A3 纸张，纵向或横向",
+        "精确或适应模式，自动页边距和列数",
+        "可在图片下方显示文件名，可包含子文件夹",
+        "支持 PNG、JPG、GIF、BMP、TIFF、WEBP 和 HEIC",
+        "也可在 Microsoft Store 获取"
+      ],
+      "notes": "在 Google Play 之外安装时，应用内购买无法使用：如需无限许可证，请从 Google Play 或 Microsoft Store 安装。"
+    },
+    "compartirarchivosred": {
+      "tagline": "通过 Wi-Fi 在 Android、Windows 和 Linux 之间传文件",
+      "description": "在局域网内的 Android 手机、Windows 电脑和 Linux 电脑之间传输文件。设备会自动发现彼此，用 6 位 PIN 配对，文件直接通过你的 Wi-Fi 传输：无需云端，无需数据线。",
+      "features": [
+        "在同一网络内自动发现设备",
+        "使用限时 PIN 安全配对",
+        "可同时传多个文件和大文件，并显示进度条",
+        "内置文件管理器",
+        "支持 Android、Windows（MSI）和 Linux（.deb）"
+      ]
+    },
+    "openwirelessdisplay": {
+      "tagline": "把 Android 设备变成电脑的无线副屏",
+      "description": "Spacedesk 的开源替代品：在同一 Wi-Fi 网络下，把一台或多台 Android 设备变成 Windows 电脑的无线副屏，支持镜像或扩展。\n\n在 Windows 上安装服务器（MSI），在手机上安装应用；两者会自动发现并用 PIN 配对。",
+      "features": [
+        "扩展模式：手机就像一台全新的显示器",
+        "可同时连接多部手机，各自显示不同的屏幕",
+        "在网络中自动发现，或通过 IP 手动连接",
+        "使用 6 位 PIN 配对",
+        "低延迟，虚拟显示器上可见鼠标指针"
+      ],
+      "notes": "需要在电脑上安装 Windows 服务器。"
+    },
+    "paybio": {
+      "tagline": "带二维码的收款方式卡包，100% 本地运行，内置端侧 AI",
+      "description": "PayBio 保存你的收款方式（银行、电子钱包和加密货币地址），并以卡片形式展示，附带可直接分享的二维码。全程离线、无服务器：应用甚至不申请联网权限。\n\n上传一张银行应用的截图，本地 AI（ML Kit）就会自动生成卡片。包含适用于柜台的信息屏模式，并支持 Android TV。",
+      "features": [
+        "借助端侧 AI 从截图或文本智能导入",
+        "按国家/地区分类：银行、钱包和区块链网络",
+        "PIN 保护的信息屏模式，适用于柜台和电视屏幕",
+        "使用 SQLCipher 加密的数据库",
+        "加密的 .zip 备份，无需云端",
+        "桌面小组件，一键分享二维码"
+      ]
+    },
+    "turnosdispensario": {
+      "tagline": "取号排队与药品发放系统，支持 AI 识别处方",
+      "description": "药房发药系统，具备排队取号、AI 识别医疗处方以及按批次管理的库存（FEFO）。在局域网内运行，无需互联网：一台 Windows 服务器，加上供员工、患者和叫号屏使用的 Android 应用。",
+      "features": [
+        "带二维码和 PIN 的号码，屏幕叫号并在手机上振动提醒",
+        "AI 处方识别（OCR）和手动搜索",
+        "按批次管理库存，支持有效期和条码扫描",
+        "自助取号机，支持热敏小票打印",
+        "在局域网内自动发现服务器",
+        "签名凭证和完整审计记录"
+      ],
+      "notes": "Android 应用需要同一网络中的 Windows 服务器。"
+    },
+    "reciclaje": {
+      "tagline": "适用于回收站的智能排队系统，无需联网",
+      "description": "回收站管理系统：排队取号、称重并实时计算金额、签名收据、付款审批以及打包材料库存。全部在局域网内运行，由 Windows 服务器和针对各角色的 Android 应用组成。",
+      "features": [
+        "角色：客户、称重、管理员、库存和信息屏",
+        "带二维码和 PIN 的号码，并支持振动提醒",
+        "使用 HMAC-SHA256 签名的收据",
+        "专用电视应用，开机自动启动",
+        "离线优先，自动发现服务器"
+      ],
+      "notes": "Android 应用需要同一网络中的 Windows 服务器。"
+    },
+    "klanly": {
+      "tagline": "带课程和会员制的付费社群",
+      "description": "类似 Skool 的付费社群平台：创作者建立社群、收取会员费并发布课程；会员付费、参与和学习。包括网页应用、Android 应用、Android TV 应用以及 Windows 管理面板。\n\n支付可通过支付网关或手动上传凭证完成。",
+      "features": [
+        "以美元或哥伦比亚比索按月收费的社群",
+        "双重支付方式：网关（Wompi）或手动凭证",
+        "Android、Android TV 和网页应用",
+        "Windows 管理面板",
+        "开源且免费"
+      ]
+    },
+    "cuentero": {
+      "tagline": "AI 即兴创作并朗读的故事",
+      "description": "Cuentero Infinito 会创作一分钟前还不存在的故事，并为你朗读。让它讲一个收集暴风雨的灯塔看守人，或者点按“给我惊喜”：每个故事都独一无二。\n\nGoogle Play 版本在手机本地运行模型，可离线使用。这里还提供在电脑上生成故事的 Windows 版本，以及配套的 Android Wi-Fi 客户端。",
+      "features": [
+        "本地 AI 模型：无服务器、无账号、无统计分析",
+        "儿童模式：全屏、大字号，需输入 PIN 才能退出",
+        "西班牙语或英语，适合儿童、青少年或成人",
+        "使用系统语音，提供三种朗读速度",
+        "每天两个免费故事；一次性付费即可无限畅听（Google Play）"
+      ],
+      "notes": "直接下载的 APK 是 Wi-Fi 客户端，用于连接运行 Cuentero Windows 版的电脑。在手机上直接创作故事的应用请前往 Google Play。"
+    },
+    "onionhost": {
+      "tagline": "用手机或电脑把你的网站发布到 Tor 网络",
+      "description": "OnionHost 能把你的网站或作品集变成 Tor 网络上的站点，拥有专属的 .onion 地址，全球都能访问。无需注册、无需购买域名，也无需技术知识：选择网站文件夹，打开开关，网站即可上线。\n\n网站由你的设备本身提供服务：不会上传到任何服务器。",
+      "features": [
+        "在你的设备上生成专属 .onion 地址（v3 隐藏服务）",
+        "内置 Tor 引擎",
+        "每个站点独立开关、预览和日志控制台",
+        "分享地址或在 Tor 浏览器中打开",
+        "西班牙语和英语",
+        "免费 1 个站点；在应用商店一次性付费即可无限制"
+      ],
+      "notes": "正在 Google Play 审核中；已在 Microsoft Store 上架。直接下载的 Windows 安装程序（.exe）没有站点数量限制。"
+    }
+  }
+}

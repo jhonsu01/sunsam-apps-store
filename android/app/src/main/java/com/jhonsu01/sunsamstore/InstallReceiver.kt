@@ -19,21 +19,21 @@ class InstallReceiver : BroadcastReceiver() {
                     intent.getParcelableExtra(Intent.EXTRA_INTENT, Intent::class.java)
                 else @Suppress("DEPRECATION") intent.getParcelableExtra(Intent.EXTRA_INTENT)
                 confirm?.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)?.let(context::startActivity)
-                act?.sendProgress(pkg, 100, "installing", "Confirma la instalación en la ventana de Android.")
+                act?.sendProgress(pkg, 100, "installing", "confirm", "confirm")
             }
             PackageInstaller.STATUS_SUCCESS ->
-                act?.sendProgress(pkg, 100, "done", "Instalada correctamente.")
+                act?.sendProgress(pkg, 100, "done", "done")
             PackageInstaller.STATUS_FAILURE_ABORTED ->
-                act?.sendProgress(pkg, 0, "cancelled", "Instalación cancelada.")
+                act?.sendProgress(pkg, 0, "cancelled", "cancelled")
             PackageInstaller.STATUS_FAILURE_CONFLICT ->
-                act?.sendProgress(pkg, 0, "error", "Ya tienes esta app con otra firma (por ejemplo, desde Google Play). Desinstálala y vuelve a intentarlo.")
+                act?.sendProgress(pkg, 0, "error", "signature conflict", "conflict")
             PackageInstaller.STATUS_FAILURE_INCOMPATIBLE ->
-                act?.sendProgress(pkg, 0, "error", "Esta app no es compatible con tu dispositivo.")
+                act?.sendProgress(pkg, 0, "error", "incompatible", "incompatible")
             PackageInstaller.STATUS_FAILURE_STORAGE ->
-                act?.sendProgress(pkg, 0, "error", "No hay espacio suficiente para instalar.")
+                act?.sendProgress(pkg, 0, "error", "storage", "storage")
             else -> {
                 val msg = intent.getStringExtra(PackageInstaller.EXTRA_STATUS_MESSAGE) ?: "error $status"
-                act?.sendProgress(pkg, 0, "error", "No se pudo instalar: $msg")
+                act?.sendProgress(pkg, 0, "error", msg, "other")
             }
         }
     }

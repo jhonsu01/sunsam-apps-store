@@ -1,0 +1,288 @@
+{
+  "ui": {
+    "meta_desc": "A loja de apps independente de Jhon Supelano: download direto de APKs e instaladores do Windows, verificados com SHA-256, sem depender do Google Play.",
+    "search_placeholder": "Buscar apps",
+    "nav_how": "Como funciona",
+    "nav_get_store": "Instalar a loja",
+    "nav_about": "Sobre",
+    "lang_label": "Idioma",
+    "loading": "Carregando catálogo…",
+    "load_error": "Não foi possível carregar o catálogo. Verifique sua conexão e tente novamente.",
+    "footer_catalog": "catálogo aberto no",
+    "footer_note": "Cada download é verificado com SHA-256. Google Play e Microsoft Store são marcas de seus respectivos donos.",
+    "hero_title": "Apps privados, sem anúncios e sem intermediários",
+    "hero_text": "Download direto de APKs e instaladores do Windows a partir dos releases originais. Cada arquivo é publicado com sua impressão digital SHA-256 para você conferir que é autêntico.",
+    "pill_apps": "{n} apps",
+    "pill_platforms": "Android · Windows · Linux",
+    "pill_verified": "Verificado com SHA-256",
+    "cat_all": "Todos",
+    "cat_aria": "Categorias",
+    "results_for": "Resultados para “{q}”",
+    "all_apps": "Todos os apps",
+    "count_one": "{n} app",
+    "count_many": "{n} apps",
+    "no_results": "Nenhum app corresponde à busca.",
+    "tag_play": "No Google Play",
+    "tag_review": "Em análise no Play",
+    "tag_ms": "Microsoft Store",
+    "tag_oss": "Código aberto",
+    "not_found": "Este app não existe no catálogo.",
+    "back_store": "Voltar à loja",
+    "back_all": "← Todos os apps",
+    "icon_alt": "Ícone de {name}",
+    "meta_version": "Versão Android",
+    "meta_size": "Tamanho do APK",
+    "meta_req": "Requisito",
+    "meta_android": "Android {v}+",
+    "meta_updated": "Atualizado",
+    "meta_license": "Licença",
+    "screenshots": "Capturas de tela",
+    "shot_alt": "Captura {i} de {name}",
+    "shot_desktop_alt": "Captura de desktop {i} de {name}",
+    "about_app": "Sobre este app",
+    "features": "Recursos",
+    "tech_info": "Informações técnicas",
+    "pkg": "Pacote",
+    "version_code": "Código da versão",
+    "apk_sha": "SHA-256 do APK",
+    "cert": "Certificado de assinatura",
+    "source_code": "Código-fonte",
+    "source_private": "Privado (só os binários são publicados)",
+    "other_sources": "Outras fontes",
+    "only_here": "Disponível apenas nesta loja.",
+    "btn_install": "Instalar",
+    "btn_update": "Atualizar",
+    "btn_open": "Abrir",
+    "btn_download_apk": "Baixar APK",
+    "btn_github": "Código no GitHub",
+    "btn_web": "Site",
+    "all_downloads": "Todos os downloads",
+    "apk_default_label": "APK Android",
+    "err_open": "Não foi possível abrir o app.",
+    "preparing": "Preparando o download…",
+    "store_update_text": "Há uma nova versão da loja: {v}",
+    "store_update_btn": "Atualizar a loja",
+    "downloading_short": "Baixando…",
+    "p_downloading": "Baixando {name}… {done} de {total}",
+    "p_verifying": "Verificando a impressão digital SHA-256…",
+    "p_installing": "Abrindo o instalador do Android…",
+    "p_confirm": "Confirme a instalação na janela do Android.",
+    "p_done": "Instalado.",
+    "p_cancelled": "Instalação cancelada.",
+    "e_permission": "Permita que o Sunsam Apps instale apps e toque em Instalar de novo.",
+    "e_hash": "A impressão digital do arquivo não confere com o catálogo. Ele foi descartado por segurança.",
+    "e_network": "Não foi possível baixar {name}: {detail}",
+    "e_conflict": "Você já tem este app com outra assinatura (por exemplo, do Google Play). Desinstale-o e tente novamente.",
+    "e_incompatible": "Este app não é compatível com seu dispositivo.",
+    "e_storage": "Não há espaço suficiente para instalar.",
+    "e_other": "Não foi possível instalar: {detail}",
+    "about_doc_title": "Como funciona",
+    "about_back": "← Voltar à loja",
+    "about_h1": "Uma loja de apps própria e descentralizada",
+    "about_intro_html": "A Sunsam Apps Store reúne os apps de Jhon Supelano em um só lugar, sem depender do Google Play. O catálogo é um arquivo aberto (<a href=\"apps.json\">apps.json</a>) hospedado no GitHub Pages, e cada download vem direto do release do GitHub onde foi publicado.",
+    "store_card_title": "App da loja para Android",
+    "store_card_text": "Instale, atualize e abra os apps com um toque. Ele confere o SHA-256 de cada APK antes de instalar. Também funciona no Google TV.",
+    "btn_download": "Baixar",
+    "soon": "Em breve",
+    "cert_label": "Certificado",
+    "how_h2": "Como instalar um APK",
+    "step1": "Baixe o APK na página do app (ou instale o app da loja para fazer tudo pelo celular).",
+    "step2_html": "O Android vai pedir para permitir instalações desta fonte: <b>Configurações → Instalar apps desconhecidos</b>. Ative só para o navegador ou para a loja.",
+    "step3_html": "Abra o arquivo e toque em <b>Instalar</b>. Se você já tinha a versão do Google Play, talvez precise desinstalá-la antes: as assinaturas podem ser diferentes.",
+    "trust_h2": "Por que confiar em cada arquivo",
+    "trust_html": "Cada página mostra a impressão digital <b>SHA-256</b> do APK e a do <b>certificado de assinatura</b>. O app da loja compara a impressão digital do arquivo baixado antes de entregá-lo ao instalador do Android; se não conferir, o arquivo é apagado e não é instalado. No Windows, você pode conferir com <code>Get-FileHash arquivo.apk</code>.",
+    "oss_h2": "Código aberto e apps privados",
+    "oss_text": "Alguns apps são de código aberto e levam ao seu repositório. Outros têm código privado: deles, só os instaladores são publicados, nunca o código-fonte.",
+    "shots_lang_note": "As capturas são exibidas no idioma original do app.",
+    "lb_close": "Fechar",
+    "lb_prev": "Anterior",
+    "lb_next": "Próxima"
+  },
+  "labels": {
+    "Propietaria": "Proprietária",
+    "Instalador MSI": "Instalador MSI",
+    "App del personal": "App da equipe",
+    "App del paciente": "App do paciente",
+    "Autoservicio": "Autoatendimento",
+    "Kiosko TV": "Quiosque TV",
+    "Servidor y panel (MSI)": "Servidor e painel (MSI)",
+    "Asistente de módulo (MSI)": "Assistente de guichê (MSI)",
+    "App multirol": "App multifunção",
+    "App del cliente": "App do cliente",
+    "Reciclaje TV": "Reciclaje TV",
+    "Klanly TV": "Klanly TV",
+    "Panel de administración (MSI)": "Painel de administração (MSI)",
+    "Cliente WiFi para el PC": "Cliente Wi-Fi para o PC",
+    "Cuentero para Windows (MSI)": "Cuentero para Windows (MSI)",
+    "Instalador para Windows (.exe)": "Instalador para Windows (.exe)",
+    "Servidor para Windows (MSI)": "Servidor para Windows (MSI)",
+    "Paquete .deb (amd64)": "Pacote .deb (amd64)"
+  },
+  "categories": {
+    "seguridad": "Segurança e privacidade",
+    "productividad": "Produtividade",
+    "negocios": "Negócios",
+    "entretenimiento": "Entretenimento",
+    "herramientas": "Ferramentas"
+  },
+  "apps": {
+    "opencallshield": {
+      "tagline": "Bloqueie chamadas de spam com uma lista aberta e colaborativa",
+      "description": "Uma alternativa privada e descentralizada ao Truecaller. O OpenCallShield usa o serviço oficial de triagem de chamadas do Android (10 ou superior) para recusar ou silenciar chamadas de spam antes que o celular toque.\n\nTudo é decidido no seu aparelho, com um motor de regras e um banco de dados local; a lista de números denunciados é sincronizada com um arquivo público no GitHub para o qual qualquer pessoa pode contribuir.",
+      "features": [
+        "Bloqueio automático: recusa ou silencia chamadas de spam",
+        "Motor de regras: contatos permitidos, números denunciados e prefixos suspeitos",
+        "Bloqueio de chamadas por país",
+        "Base colaborativa pública com sincronização diária",
+        "Histórico de chamadas filtradas e suas próprias denúncias",
+        "Código aberto (MIT), sem anúncios nem rastreadores"
+      ]
+    },
+    "safevault": {
+      "tagline": "IA no seu celular encontra fotos sensíveis e as criptografa",
+      "description": "O SafeVault analisa sua galeria e sua câmera com modelos de IA que rodam dentro do celular, decide quais imagens são sensíveis (documentos, cartões, capturas privadas) e as guarda em um cofre criptografado com AES-256 que só abre com sua digital, o bloqueio do celular ou sua senha.\n\nEle não tem servidor próprio: a única conexão com a internet é o download inicial dos modelos. Zero nuvem, zero contas.",
+      "features": [
+        "Guardião automático: analisa cada foto nova em segundo plano",
+        "Roteador de consenso entre vários modelos no dispositivo",
+        "Cofre AES-256 com digital, bloqueio do sistema ou senha",
+        "Revisão manual do que a IA marca como duvidoso",
+        "8 idiomas e modo escuro",
+        "Android 9 ou superior"
+      ],
+      "notes": "Em testes no Google Play (v0.6.2). O APK direto é a versão 0.6.1."
+    },
+    "idpersonalsecure": {
+      "tagline": "Sua carteira digital de documentos criptografada, sem nuvem",
+      "description": "Um cofre pessoal para seus documentos de identidade, no Android e no Windows. Tudo é criptografado localmente com AES-256-GCM e uma chave derivada do seu PIN; nenhum documento é salvo em texto puro nem sai do seu aparelho.\n\nVocê pode exportar seu cofre para um arquivo .securevault em um aparelho e importá-lo no outro.",
+      "features": [
+        "Criptografia AES-256-GCM com chave derivada do PIN (PBKDF2, 210.000 iterações)",
+        "Documentos com datas de emissão e validade, filtros e busca",
+        "Anexos em PDF ou imagem",
+        "Exportação e importação entre Android e Windows",
+        "Offline-first com modo escuro"
+      ]
+    },
+    "docuscaner": {
+      "tagline": "Amplie documentos de identidade para 150%, prontos para imprimir",
+      "description": "Amplia documentos de identidade e os deixa prontos para imprimir em uma folha Carta, no tamanho físico exato que as instituições pedem: 150% do original (13,2 x 8,25 cm) ou o fator que você precisar. Feito para papelarias, copiadoras e trâmites pessoais.\n\nTodo o processamento acontece no seu celular; seus documentos nunca são enviados para nenhum servidor.",
+      "features": [
+        "Ampliação para 100%, 150%, 200% ou o fator que você escolher, com medidas reais",
+        "Frente e verso em uma única folha Carta",
+        "Modos colorido, preto e branco e alto contraste",
+        "Scanner de várias páginas para PDF e recorte com os dedos",
+        "Cofre criptografado com PIN e backups AES-256",
+        "Versão para Windows (MSI)"
+      ],
+      "notes": "O APK direto é a edição Documentos150 (pacote com.iddoc150), que é instalada separadamente da versão do Google Play. A licença ilimitada só pode ser comprada no Google Play."
+    },
+    "printorganize": {
+      "tagline": "Suas fotos no Word com a medida exata em centímetros",
+      "description": "Transforma uma pasta de imagens em um documento do Word com as fotos organizadas em grade, no tamanho físico exato que você indicar. Se você precisa de fotos de 6 x 6 cm, elas saem com 6 x 6 cm: nem um milímetro a mais.\n\nEscolha a pasta, digite a medida e toque em Gerar. O app calcula quantas cabem por folha e salva um .docx pronto para imprimir. Sem servidores, sem contas e sem anúncios.",
+      "features": [
+        "Medida exata de cada imagem em centímetros",
+        "Folhas A4, Carta, Ofício e A3, na vertical ou horizontal",
+        "Modo exato ou ajustar, margens e colunas automáticas",
+        "Nome do arquivo abaixo de cada imagem e inclusão de subpastas",
+        "PNG, JPG, GIF, BMP, TIFF, WEBP e HEIC",
+        "Também disponível na Microsoft Store"
+      ],
+      "notes": "Instalado fora do Google Play, a compra no app não funciona: para a licença ilimitada, instale pelo Google Play ou pela Microsoft Store."
+    },
+    "compartirarchivosred": {
+      "tagline": "Envie arquivos entre Android, Windows e Linux pelo seu Wi-Fi",
+      "description": "Transfira arquivos na sua rede local entre celulares Android, PCs com Windows e computadores Linux. Os aparelhos se encontram sozinhos, pareiam com um PIN de 6 dígitos e os arquivos viajam direto pelo seu Wi-Fi: sem nuvem e sem cabos.",
+      "features": [
+        "Descoberta automática na mesma rede",
+        "Pareamento seguro por PIN com validade",
+        "Vários arquivos de uma vez, arquivos grandes e barra de progresso",
+        "Gerenciador de arquivos integrado",
+        "Android, Windows (MSI) e Linux (.deb)"
+      ]
+    },
+    "openwirelessdisplay": {
+      "tagline": "Use seu Android como segundo monitor sem fio do PC",
+      "description": "Uma alternativa de código aberto ao Spacedesk: transforma um ou vários aparelhos Android em monitores secundários sem fio de um PC com Windows, espelhados ou estendidos, na mesma rede Wi-Fi.\n\nInstale o servidor no Windows (MSI) e o app no celular; eles se encontram sozinhos e pareiam com um PIN.",
+      "features": [
+        "Modo estendido: o celular funciona como um monitor novo",
+        "Vários celulares ao mesmo tempo, cada um com um monitor diferente",
+        "Detecção automática na rede ou conexão manual por IP",
+        "Pareamento por PIN de 6 dígitos",
+        "Baixa latência e cursor visível nos monitores virtuais"
+      ],
+      "notes": "Requer o servidor do Windows instalado no PC."
+    },
+    "paybio": {
+      "tagline": "Carteira de formas de pagamento com QR, 100% local e com IA no aparelho",
+      "description": "O PayBio guarda suas formas de recebimento (bancos, carteiras digitais e endereços cripto) e as mostra como cartões com um QR code pronto para compartilhar, offline e sem servidores: o app nem pede permissão de internet.\n\nEnvie uma captura do app do seu banco e a IA local (ML Kit) cria o cartão sozinha. Inclui modo quiosque para balcões e suporte a Android TV.",
+      "features": [
+        "Importação inteligente de capturas ou texto com IA no aparelho",
+        "Catálogo por país: bancos, carteiras e redes blockchain",
+        "Modo quiosque com PIN para balcões e telas de TV",
+        "Banco de dados criptografado com SQLCipher",
+        "Backups .zip criptografados, sem nuvem",
+        "Widget na tela inicial e compartilhamento do QR com um toque"
+      ]
+    },
+    "turnosdispensario": {
+      "tagline": "Fila de atendimento e dispensação de medicamentos com OCR de receitas por IA",
+      "description": "Sistema de dispensário de medicamentos com fila de senhas, leitura de receitas médicas por IA e estoque por lotes (FEFO). Funciona na rede local e sem internet: um servidor no Windows e apps Android para a equipe, os pacientes e as telas de chamada.",
+      "features": [
+        "Senhas com QR e PIN, chamada na tela e vibração no celular",
+        "OCR de receitas por IA e busca manual",
+        "Estoque por lotes com validades e leitor de código de barras",
+        "Quiosque de autoatendimento com impressão térmica",
+        "Descoberta automática do servidor na rede local",
+        "Comprovantes assinados e auditoria completa"
+      ],
+      "notes": "Os apps Android precisam do servidor do Windows na mesma rede."
+    },
+    "reciclaje": {
+      "tagline": "Fila inteligente para centros de reciclagem, sem internet",
+      "description": "Sistema de gestão para centros de reciclagem: senhas de atendimento, pesagem com cálculo do valor em tempo real, recibos assinados, autorização de pagamentos e estoque de material enfardado. Tudo funciona na rede local com um servidor no Windows e apps Android para cada função.",
+      "features": [
+        "Funções: cliente, pesagem, administrador, estoque e quiosque",
+        "Senhas com QR e PIN, e aviso por vibração",
+        "Recibos assinados com HMAC-SHA256",
+        "App dedicado para TV com início automático",
+        "Offline-first com descoberta automática do servidor"
+      ],
+      "notes": "Os apps Android precisam do servidor do Windows na mesma rede."
+    },
+    "klanly": {
+      "tagline": "Comunidades pagas com cursos e assinaturas",
+      "description": "Plataforma de comunidades pagas no estilo Skool: criadores montam sua comunidade, cobram assinaturas e publicam cursos; os membros pagam, participam e aprendem. Inclui app web, app Android, app para Android TV e painel de administração para Windows.\n\nOs pagamentos aceitam gateway de pagamento ou comprovante manual.",
+      "features": [
+        "Comunidades com assinatura mensal em USD ou COP",
+        "Pagamentos duplos: gateway (Wompi) ou comprovante manual",
+        "Apps Android, Android TV e web",
+        "Painel de administração para Windows",
+        "Código aberto e gratuito"
+      ]
+    },
+    "cuentero": {
+      "tagline": "Histórias inventadas por IA e lidas em voz alta",
+      "description": "O Cuentero Infinito inventa histórias que não existiam um minuto atrás e as lê em voz alta. Peça um faroleiro que coleciona tempestades ou toque em “Surpreenda-me”: nenhuma história se repete.\n\nA versão do Google Play roda o modelo dentro do celular e funciona offline. Aqui você também encontra a versão para Windows, que gera as histórias no seu PC, e seu cliente Android por Wi-Fi.",
+      "features": [
+        "Modelo de IA local: sem servidores, contas nem análises",
+        "Modo criança: tela cheia, letra grande e saída com PIN",
+        "Espanhol ou inglês, para crianças, jovens ou adultos",
+        "Vozes do sistema com três velocidades de leitura",
+        "Duas histórias grátis por dia; pagamento único para ilimitadas (Google Play)"
+      ],
+      "notes": "O APK direto é o cliente Wi-Fi que se conecta ao PC com o Cuentero para Windows. O app que cria histórias no próprio celular está no Google Play."
+    },
+    "onionhost": {
+      "tagline": "Publique seu site na rede Tor pelo celular ou pelo PC",
+      "description": "O OnionHost transforma seu site ou portfólio em um site da rede Tor com seu próprio endereço .onion, acessível de qualquer lugar do mundo. Sem cadastro, sem domínio para comprar e sem conhecimento técnico: escolha a pasta do seu site, ligue o interruptor e seu site fica no ar.\n\nO próprio aparelho serve o site: nada é enviado a nenhum servidor.",
+      "features": [
+        "Endereço .onion próprio (serviços ocultos v3) gerado no seu aparelho",
+        "Motor Tor integrado",
+        "Interruptor por site, pré-visualização e console de logs",
+        "Compartilhe o endereço ou abra no Tor Browser",
+        "Espanhol e inglês",
+        "1 site grátis; ilimitados com pagamento único nas lojas"
+      ],
+      "notes": "Em análise no Google Play; já disponível na Microsoft Store. O instalador direto para Windows (.exe) não tem limite de sites."
+    }
+  }
+}

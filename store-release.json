@@ -1,11 +1,11 @@
 {
   "package": "com.jhonsu01.sunsamstore",
-  "versionCode": 2,
-  "versionName": "1.0.1",
+  "versionCode": 3,
+  "versionName": "1.0.2",
   "minSdk": 26,
-  "size": 2777888,
-  "sha256": "070e44888932a80d7cf1a18099faa05c589e22f2846b6c9ab668519f892796c4",
+  "size": 2834552,
+  "sha256": "c03819f54fd4fb48b1bdb88daa8224e53f564d3307eb43ca728aeddfb584a28b",
   "certSha256": "bc79fc700a87c565f5e54b6c4045527dda46ddd919232027a7d43376c4f0d92e",
-  "file": "SunsamAppsStore-1.0.1.apk",
-  "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/store-v1.0.1/SunsamAppsStore-1.0.1.apk"
+  "file": "SunsamAppsStore-1.0.2.apk",
+  "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/store-v1.0.2/SunsamAppsStore-1.0.2.apk"
 }

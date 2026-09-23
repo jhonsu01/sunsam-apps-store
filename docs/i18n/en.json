@@ -1,0 +1,288 @@
+{
+  "ui": {
+    "meta_desc": "Jhon Supelano's independent app store: direct downloads of APKs and Windows installers, verified with SHA-256, without depending on Google Play.",
+    "search_placeholder": "Search apps",
+    "nav_how": "How it works",
+    "nav_get_store": "Get the store",
+    "nav_about": "About",
+    "lang_label": "Language",
+    "loading": "Loading catalog…",
+    "load_error": "Couldn't load the catalog. Check your connection and try again.",
+    "footer_catalog": "open catalog on",
+    "footer_note": "Every download is verified with SHA-256. Google Play and Microsoft Store are trademarks of their respective owners.",
+    "hero_title": "Private apps, no ads, no middlemen",
+    "hero_text": "Direct downloads of APKs and Windows installers from the original releases. Every file is published with its SHA-256 fingerprint so you can check it's authentic.",
+    "pill_apps": "{n} apps",
+    "pill_platforms": "Android · Windows · Linux",
+    "pill_verified": "Verified with SHA-256",
+    "cat_all": "All",
+    "cat_aria": "Categories",
+    "results_for": "Results for “{q}”",
+    "all_apps": "All apps",
+    "count_one": "{n} app",
+    "count_many": "{n} apps",
+    "no_results": "No apps match your search.",
+    "tag_play": "On Google Play",
+    "tag_review": "In review on Play",
+    "tag_ms": "Microsoft Store",
+    "tag_oss": "Open source",
+    "not_found": "This app isn't in the catalog.",
+    "back_store": "Back to the store",
+    "back_all": "← All apps",
+    "icon_alt": "{name} icon",
+    "meta_version": "Android version",
+    "meta_size": "APK size",
+    "meta_req": "Requires",
+    "meta_android": "Android {v}+",
+    "meta_updated": "Updated",
+    "meta_license": "License",
+    "screenshots": "Screenshots",
+    "shot_alt": "Screenshot {i} of {name}",
+    "shot_desktop_alt": "Desktop screenshot {i} of {name}",
+    "about_app": "About this app",
+    "features": "Features",
+    "tech_info": "Technical details",
+    "pkg": "Package",
+    "version_code": "Version code",
+    "apk_sha": "APK SHA-256",
+    "cert": "Signing certificate",
+    "source_code": "Source code",
+    "source_private": "Private (only binaries are published)",
+    "other_sources": "Other sources",
+    "only_here": "Only available in this store.",
+    "btn_install": "Install",
+    "btn_update": "Update",
+    "btn_open": "Open",
+    "btn_download_apk": "Download APK",
+    "btn_github": "Code on GitHub",
+    "btn_web": "Website",
+    "all_downloads": "All downloads",
+    "apk_default_label": "Android APK",
+    "err_open": "Couldn't open the app.",
+    "preparing": "Preparing download…",
+    "store_update_text": "A new version of the store is available: {v}",
+    "store_update_btn": "Update store",
+    "downloading_short": "Downloading…",
+    "p_downloading": "Downloading {name}… {done} of {total}",
+    "p_verifying": "Verifying SHA-256 fingerprint…",
+    "p_installing": "Opening the Android installer…",
+    "p_confirm": "Confirm the installation in the Android window.",
+    "p_done": "Installed.",
+    "p_cancelled": "Installation cancelled.",
+    "e_permission": "Allow Sunsam Apps to install apps, then tap Install again.",
+    "e_hash": "The file's fingerprint doesn't match the catalog. It was discarded for your safety.",
+    "e_network": "Couldn't download {name}: {detail}",
+    "e_conflict": "You already have this app with a different signature (for example, from Google Play). Uninstall it and try again.",
+    "e_incompatible": "This app isn't compatible with your device.",
+    "e_storage": "There isn't enough space to install.",
+    "e_other": "Couldn't install: {detail}",
+    "about_doc_title": "How it works",
+    "about_back": "← Back to the store",
+    "about_h1": "An independent, decentralized app store",
+    "about_intro_html": "Sunsam Apps Store brings Jhon Supelano's apps together in one place without depending on Google Play. The catalog is an open file (<a href=\"apps.json\">apps.json</a>) hosted on GitHub Pages, and every download comes straight from the GitHub release where it was published.",
+    "store_card_title": "Store app for Android",
+    "store_card_text": "Install, update and open apps with one tap. It checks each APK's SHA-256 before installing it. Works on Google TV too.",
+    "btn_download": "Download",
+    "soon": "Coming soon",
+    "cert_label": "Certificate",
+    "how_h2": "How to install an APK",
+    "step1": "Download the APK from the app's page (or install the store app to do everything from your phone).",
+    "step2_html": "Android will ask you to allow installs from this source: <b>Settings → Install unknown apps</b>. Only enable it for your browser or the store.",
+    "step3_html": "Open the file and tap <b>Install</b>. If you already have the Google Play version, you may need to uninstall it first: the signatures can differ.",
+    "trust_h2": "Why you can trust every file",
+    "trust_html": "Every app page shows the APK's <b>SHA-256</b> fingerprint and its <b>signing certificate</b>. The store app compares the downloaded file's fingerprint before handing it to the Android installer; if it doesn't match, it deletes the file and doesn't install it. On Windows you can check it with <code>Get-FileHash file.apk</code>.",
+    "oss_h2": "Open source and private apps",
+    "oss_text": "Some apps are open source and link to their repository. Others have private code: for those, only the installers are published, never the source code.",
+    "shots_lang_note": "Screenshots are shown in the app's original language.",
+    "lb_close": "Close",
+    "lb_prev": "Previous",
+    "lb_next": "Next"
+  },
+  "labels": {
+    "Propietaria": "Proprietary",
+    "Instalador MSI": "MSI installer",
+    "App del personal": "Staff app",
+    "App del paciente": "Patient app",
+    "Autoservicio": "Self-service",
+    "Kiosko TV": "TV kiosk",
+    "Servidor y panel (MSI)": "Server and dashboard (MSI)",
+    "Asistente de módulo (MSI)": "Counter assistant (MSI)",
+    "App multirol": "Multi-role app",
+    "App del cliente": "Customer app",
+    "Reciclaje TV": "Reciclaje TV",
+    "Klanly TV": "Klanly TV",
+    "Panel de administración (MSI)": "Admin dashboard (MSI)",
+    "Cliente WiFi para el PC": "Wi-Fi client for the PC",
+    "Cuentero para Windows (MSI)": "Cuentero for Windows (MSI)",
+    "Instalador para Windows (.exe)": "Windows installer (.exe)",
+    "Servidor para Windows (MSI)": "Windows server (MSI)",
+    "Paquete .deb (amd64)": ".deb package (amd64)"
+  },
+  "categories": {
+    "seguridad": "Security and privacy",
+    "productividad": "Productivity",
+    "negocios": "Business",
+    "entretenimiento": "Entertainment",
+    "herramientas": "Tools"
+  },
+  "apps": {
+    "opencallshield": {
+      "tagline": "Block spam calls with an open, community-driven list",
+      "description": "A private, decentralized alternative to Truecaller. OpenCallShield uses Android's official call screening service (Android 10 or later) to reject or silence spam calls before your phone rings.\n\nEverything is decided on your device with a rules engine and a local database; the list of reported numbers syncs with a public file on GitHub that anyone can contribute to.",
+      "features": [
+        "Automatic blocking: rejects or silences spam calls",
+        "Rules engine: allowed contacts, reported numbers and suspicious prefixes",
+        "Block calls by country",
+        "Public community database with daily sync",
+        "History of filtered calls and your own reports",
+        "Open source (MIT), no ads or trackers"
+      ]
+    },
+    "safevault": {
+      "tagline": "On-device AI finds your sensitive photos and encrypts them",
+      "description": "SafeVault scans your gallery and camera with AI models that run inside your phone, decides which images are sensitive (IDs, cards, private screenshots) and stores them in an AES-256 encrypted vault that only opens with your fingerprint, your screen lock or your password.\n\nIt has no server of its own: the only internet connection is the initial model download. No cloud, no accounts.",
+      "features": [
+        "Automatic guardian: checks every new photo in the background",
+        "Consensus router across several on-device models",
+        "AES-256 encrypted vault with fingerprint, system lock or password",
+        "Manual review of anything the AI flags as uncertain",
+        "8 languages and dark mode",
+        "Android 9 or later"
+      ],
+      "notes": "In testing on Google Play (v0.6.2). The direct APK is version 0.6.1."
+    },
+    "idpersonalsecure": {
+      "tagline": "Your encrypted digital wallet for IDs, no cloud",
+      "description": "A personal vault for your identity documents, on Android and Windows. Everything is encrypted locally with AES-256-GCM and a key derived from your PIN; no document is stored in plain text or leaves your device.\n\nYou can export your vault to a .securevault file on one device and import it on the other.",
+      "features": [
+        "AES-256-GCM encryption with a PIN-derived key (PBKDF2, 210,000 iterations)",
+        "Documents with issue and expiry dates, filters and search",
+        "PDF or image attachments",
+        "Export and import between Android and Windows",
+        "Offline-first with dark mode"
+      ]
+    },
+    "docuscaner": {
+      "tagline": "Enlarge ID documents to 150%, ready to print",
+      "description": "Enlarges identity documents and gets them ready to print on a letter-size sheet at the exact physical size institutions ask for: 150% of the original (13.2 x 8.25 cm) or any factor you need. Built for print shops, copy centers and personal paperwork.\n\nAll processing happens on your phone; your documents are never sent to any server.",
+      "features": [
+        "Enlarge to 100%, 150%, 200% or any factor, with real measurements",
+        "Front and back on a single letter-size sheet",
+        "Color, black and white and high-contrast modes",
+        "Multi-page scanner to PDF and finger cropping",
+        "PIN-protected encrypted vault and AES-256 backups",
+        "Windows version (MSI)"
+      ],
+      "notes": "The direct APK is the Documentos150 edition (package com.iddoc150), which installs separately from the Google Play version. The unlimited license can only be bought on Google Play."
+    },
+    "printorganize": {
+      "tagline": "Your photos in Word at the exact size in centimeters",
+      "description": "Turns a folder of images into a Word document with the photos arranged in a grid at exactly the physical size you choose. If you need 6 x 6 cm photos, they come out 6 x 6 cm: not a millimeter more.\n\nPick the folder, type the size and tap Generate. The app works out how many fit per page and saves a print-ready .docx. No servers, no accounts and no ads.",
+      "features": [
+        "Exact size for each image in centimeters",
+        "A4, Letter, Legal and A3 sheets, portrait or landscape",
+        "Exact or fit mode, automatic margins and columns",
+        "File name under each image and subfolder support",
+        "PNG, JPG, GIF, BMP, TIFF, WEBP and HEIC",
+        "Also available on Microsoft Store"
+      ],
+      "notes": "Installed outside Google Play, in-app purchase doesn't work: for the unlimited license, install from Google Play or Microsoft Store."
+    },
+    "compartirarchivosred": {
+      "tagline": "Send files between Android, Windows and Linux over your Wi-Fi",
+      "description": "Transfer files on your local network between Android phones, Windows PCs and Linux computers. Devices find each other automatically, pair with a 6-digit PIN and files travel straight over your Wi-Fi: no cloud and no cables.",
+      "features": [
+        "Automatic discovery on the same network",
+        "Secure pairing with an expiring PIN",
+        "Several files at once, large files and a progress bar",
+        "Built-in file explorer",
+        "Android, Windows (MSI) and Linux (.deb)"
+      ]
+    },
+    "openwirelessdisplay": {
+      "tagline": "Use your Android as a wireless second monitor for your PC",
+      "description": "An open-source alternative to Spacedesk: turns one or more Android devices into wireless secondary monitors for a Windows PC, mirrored or extended, on the same Wi-Fi network.\n\nInstall the server on Windows (MSI) and the app on your phone; they find each other and pair with a PIN.",
+      "features": [
+        "Extended mode: your phone works as a brand-new monitor",
+        "Several phones at once, each showing a different monitor",
+        "Automatic discovery on the network or manual IP connection",
+        "Pairing with a 6-digit PIN",
+        "Low latency and a visible cursor on virtual monitors"
+      ],
+      "notes": "Requires the Windows server installed on the PC."
+    },
+    "paybio": {
+      "tagline": "Payment-method wallet with QR codes, 100% local with on-device AI",
+      "description": "PayBio stores your payment methods (banks, digital wallets and crypto addresses) and shows them as cards with a QR code ready to share, offline and without servers: the app doesn't even request internet permission.\n\nUpload a screenshot of your banking app and the local AI (ML Kit) builds the card for you. Includes a kiosk mode for counters and Android TV support.",
+      "features": [
+        "Smart import from screenshots or text with on-device AI",
+        "Catalog by country: banks, wallets and blockchain networks",
+        "PIN-protected kiosk mode for counters and TV screens",
+        "SQLCipher-encrypted database",
+        "Encrypted .zip backups, no cloud",
+        "Home-screen widget and one-tap QR sharing"
+      ]
+    },
+    "turnosdispensario": {
+      "tagline": "Queue and medicine dispensing system with AI prescription OCR",
+      "description": "A medicine dispensary system with queue tickets, AI reading of medical prescriptions and batch inventory (FEFO). It runs on your local network without internet: a Windows server plus Android apps for staff, patients and queue display screens.",
+      "features": [
+        "Tickets with QR and PIN, on-screen calls and phone vibration",
+        "AI prescription OCR plus manual search",
+        "Batch inventory with expiry dates and barcode scanner",
+        "Self-service kiosk with thermal ticket printing",
+        "Automatic server discovery on the local network",
+        "Signed receipts and a full audit trail"
+      ],
+      "notes": "The Android apps need the Windows server on the same network."
+    },
+    "reciclaje": {
+      "tagline": "Smart queue system for recycling centers, no internet needed",
+      "description": "Management system for recycling centers: queue tickets, weighing with live value calculation, signed receipts, payment approval and baled-material inventory. Everything runs on your local network with a Windows server and Android apps for each role.",
+      "features": [
+        "Roles: customer, weighing, administrator, inventory and kiosk",
+        "Tickets with QR and PIN, plus vibration alerts",
+        "Receipts signed with HMAC-SHA256",
+        "Dedicated TV app that starts automatically",
+        "Offline-first with automatic server discovery"
+      ],
+      "notes": "The Android apps need the Windows server on the same network."
+    },
+    "klanly": {
+      "tagline": "Paid communities with courses and memberships",
+      "description": "A Skool-style platform for paid communities: creators build their community, charge memberships and publish courses; members pay, take part and learn. Includes a web app, an Android app, an Android TV app and an admin dashboard for Windows.\n\nPayments work through a payment gateway or a manual receipt.",
+      "features": [
+        "Communities with monthly memberships in USD or COP",
+        "Dual payments: gateway (Wompi) or manual receipt",
+        "Android, Android TV and web apps",
+        "Admin dashboard for Windows",
+        "Open source and free"
+      ]
+    },
+    "cuentero": {
+      "tagline": "AI-invented stories read aloud",
+      "description": "Cuentero Infinito invents stories that didn't exist a minute ago and reads them aloud. Ask for a lighthouse keeper who collects storms or tap “Surprise me”: no story ever repeats.\n\nThe Google Play version runs the model inside your phone and works offline. Here you'll also find the Windows version, which generates the stories on your PC, and its Android Wi-Fi client.",
+      "features": [
+        "Local AI model: no servers, accounts or analytics",
+        "Kids mode: full screen, large text and PIN to exit",
+        "Spanish or English, for children, teens or adults",
+        "System voices with three reading speeds",
+        "Two free stories a day; one-time payment for unlimited (Google Play)"
+      ],
+      "notes": "The direct APK is the Wi-Fi client that connects to the PC running Cuentero for Windows. The app that writes stories on the phone itself is on Google Play."
+    },
+    "onionhost": {
+      "tagline": "Publish your website on the Tor network from your phone or PC",
+      "description": "OnionHost turns your website or portfolio into a Tor network site with its own .onion address, reachable from anywhere in the world. No sign-ups, no domains to buy and no technical knowledge: pick your website's folder, flip the switch and your site is online.\n\nYour own device serves the site: nothing is uploaded to any server.",
+      "features": [
+        "Your own .onion address (v3 hidden services) generated on your device",
+        "Built-in Tor engine",
+        "Per-site switch, preview and log console",
+        "Share the address or open it in Tor Browser",
+        "Spanish and English",
+        "1 free site; unlimited with a one-time payment in the stores"
+      ],
+      "notes": "In review on Google Play; already available on Microsoft Store. The direct Windows installer (.exe) has no site limit."
+    }
+  }
+}

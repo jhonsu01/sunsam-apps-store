@@ -9,6 +9,7 @@
   <meta property="og:title" content="Sunsam Apps Store">
   <meta property="og:description" content="Apps privadas, sin anuncios y con descarga directa verificada.">
   <meta property="og:image" content="https://jhonsu01.github.io/sunsam-apps-store/img/og.png">
+  <link rel="alternate" hreflang="x-default" href="https://jhonsu01.github.io/sunsam-apps-store/">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +28,8 @@
       <input id="q" type="search" placeholder="Buscar apps" autocomplete="off" aria-label="Buscar apps">
     </label>
     <nav class="topnav">
-      <a href="#/acerca">Cómo funciona</a>
+      <a href="#/acerca" id="nav-how">Cómo funciona</a>
+      <select id="lang" class="lang" aria-label="Idioma"><option value="es">Español</option></select>
       <a class="btn-mini" id="get-store" href="#/acerca">Instala la tienda</a>
     </nav>
   </header>
@@ -35,8 +37,8 @@
   <main id="view" tabindex="-1"><div class="loading">Cargando catálogo…</div></main>
 
   <footer class="foot">
-    <p>Sunsam Apps Store · catálogo abierto en <a href="https://github.com/jhonsu01/sunsam-apps-store">GitHub</a> · <a href="apps.json">apps.json</a></p>
-    <p class="muted">Cada descarga se verifica con SHA-256. Las marcas Google Play y Microsoft Store pertenecen a sus dueños.</p>
+    <p>Sunsam Apps Store · <span id="foot-catalog">catálogo abierto en</span> <a href="https://github.com/jhonsu01/sunsam-apps-store">GitHub</a> · <a href="apps.json">apps.json</a></p>
+    <p class="muted" id="foot-note">Cada descarga se verifica con SHA-256. Las marcas Google Play y Microsoft Store pertenecen a sus dueños.</p>
   </footer>
 
   <div id="lightbox" class="lightbox" hidden>

@@ -25,6 +25,15 @@ Descarga directa de APK e instaladores de Windows, verificados con SHA-256, sin 
 
 Las apps de código abierto se descargan directamente desde el release de su propio repositorio.
 
+### Idiomas
+
+La tienda está disponible en **español** (principal), inglés, francés, portugués, chino simplificado, ruso, japonés y coreano.
+
+- La web elige el idioma del navegador (o del sistema, dentro de la app Android) y se puede cambiar con el selector; la elección se recuerda.
+- En Android 13+ se puede fijar un idioma solo para la tienda en *Ajustes → Apps → Sunsam Apps → Idioma*.
+- Las traducciones viven en `docs/i18n/<idioma>.json` (interfaz, categorías, etiquetas y fichas). `apps.json` sigue en español como base.
+- Las capturas se muestran en el idioma original de cada app.
+
 ### Seguridad
 
 - La app Android descarga el APK, **calcula su SHA-256 y lo compara con el catálogo** antes de entregarlo al instalador del sistema (`PackageInstaller`). Si no coincide, lo borra.
@@ -61,6 +70,12 @@ Certificado de la app de la tienda (SHA-256):
 
 ```bash
 python tools/build_catalog.py --apks <carpeta_apks> --win <carpeta_instaladores>
+```
+
+5. Traduce la ficha nueva (tagline, description, features y notes) en cada `docs/i18n/<idioma>.json` y valida:
+
+```bash
+python tools/check_i18n.py
 ```
 
 ## Compilar la app de la tienda

@@ -25,17 +25,17 @@ object ApkInstaller {
         thread(name = "install-$pkg") {
             try {
                 val apk = download(url, pkg, label)
-                act.sendProgress(pkg, 100, "verifying", "Verificando huella SHA-256…")
+                act.sendProgress(pkg, 100, "verifying", "verifying")
                 val actual = sha256(apk)
                 if (actual != expectedSha) {
                     apk.delete()
-                    act.sendProgress(pkg, 0, "error", "La huella del archivo no coincide con el catálogo. Se descartó por seguridad.")
+                    act.sendProgress(pkg, 0, "error", "sha256 mismatch", "hash")
                     return@thread
                 }
-                act.sendProgress(pkg, 100, "installing", "Abriendo el instalador de Android…")
+                act.sendProgress(pkg, 100, "installing", "installing")
                 commit(act, apk, pkg)
             } catch (e: Exception) {
-                act.sendProgress(pkg, 0, "error", "No se pudo descargar $label: ${e.message ?: e.javaClass.simpleName}")
+                act.sendProgress(pkg, 0, "error", e.message ?: e.javaClass.simpleName, "network")
             } finally {
                 synchronized(busy) { busy.remove(pkg) }
             }
@@ -75,7 +75,7 @@ object ApkInstaller {
                     val pct = if (total > 0) (done * 100 / total).toInt() else 0
                     if (pct != lastPct) {
                         lastPct = pct
-                        activity?.sendProgress(pkg, pct, "downloading", "Descargando $label… ${mb(done)} de ${mb(total)}")
+                        activity?.sendProgress(pkg, pct, "downloading", "", null, done, total)
                     }
                 }
             }
@@ -112,6 +112,4 @@ object ApkInstaller {
         }
         return md.digest().joinToString("") { "%02x".format(it) }
     }
-
-    private fun mb(b: Long) = if (b <= 0) "?" else "%.1f MB".format(b / 1_000_000.0)
 }
