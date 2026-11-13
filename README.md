@@ -61,7 +61,7 @@ _Generado desde `docs/apps.json` el 2026-11-13 con `tools/readme_catalog.py`._
 | [Turnos Dispensario](https://jhonsu01.github.io/sunsam-apps-store/#/app/turnosdispensario) | 0.7.1 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/TurnosDespachoDispensario) |
 | [Reciclaje Turnero](https://jhonsu01.github.io/sunsam-apps-store/#/app/reciclaje) | 0.8.1 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/ReciclajeApp) |
 | [Klanly](https://jhonsu01.github.io/sunsam-apps-store/#/app/klanly) | 0.8.0 · 0.6.0 (Windows) | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/klanly) |
-| [Cuentero Infinito](https://jhonsu01.github.io/sunsam-apps-store/#/app/cuentero) | 0.1.15 | Android · Windows | Directa (APK · Windows) | [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.cuenteroinfinito) · código privado |
+| [Cuentero Infinito](https://jhonsu01.github.io/sunsam-apps-store/#/app/cuentero) | — | Android | Solo tiendas: [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.cuenteroinfinito) | código privado |
 | [OnionHost](https://jhonsu01.github.io/sunsam-apps-store/#/app/onionhost) | — | Android · Windows | Solo tiendas: [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost) · [Microsoft Store](https://apps.microsoft.com/detail/9pdgf2wst45f) | código privado |
 <!-- catalogo:fin -->
 

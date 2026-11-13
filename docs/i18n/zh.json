@@ -264,7 +264,7 @@
     },
     "cuentero": {
       "tagline": "AI 即兴创作并朗读的故事",
-      "description": "Cuentero Infinito 会创作一分钟前还不存在的故事，并为你朗读。让它讲一个收集暴风雨的灯塔看守人，或者点按“给我惊喜”：每个故事都独一无二。\n\nGoogle Play 版本在手机本地运行模型，可离线使用。这里还提供在电脑上生成故事的 Windows 版本，以及配套的 Android Wi-Fi 客户端。",
+      "description": "Cuentero Infinito 会创作一分钟前还不存在的故事，并为你朗读。让它讲一个收集暴风雨的灯塔看守人，或者点按“给我惊喜”：每个故事都独一无二。\n\n语言模型在你的手机本地运行，可离线使用：只有第一次需要联网下载模型。",
       "features": [
         "本地 AI 模型：无服务器、无账号、无统计分析",
         "儿童模式：全屏、大字号，需输入 PIN 才能退出",
@@ -272,7 +272,7 @@
         "使用系统语音，提供三种朗读速度",
         "每天两个免费故事；一次性付费即可无限畅听（Google Play）"
       ],
-      "notes": "直接下载的 APK 是 Wi-Fi 客户端，用于连接运行 Cuentero Windows 版的电脑。在手机上直接创作故事的应用请前往 Google Play。"
+      "notes": "仅在 Google Play 提供。"
     },
     "onionhost": {
       "tagline": "用手机或电脑把你的网站发布到 Tor 网络",

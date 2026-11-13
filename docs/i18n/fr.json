@@ -264,7 +264,7 @@
     },
     "cuentero": {
       "tagline": "Des contes inventés par l'IA et lus à voix haute",
-      "description": "Cuentero Infinito invente des contes qui n'existaient pas il y a une minute et vous les lit à voix haute. Demandez un gardien de phare qui collectionne les tempêtes ou appuyez sur « Surprends-moi » : aucun conte ne se répète.\n\nLa version Google Play exécute le modèle dans le téléphone et fonctionne hors ligne. Vous trouverez aussi ici la version Windows, qui génère les contes sur votre PC, et son client Android par Wi-Fi.",
+      "description": "Cuentero Infinito invente des contes qui n'existaient pas il y a une minute et vous les lit à voix haute. Demandez un gardien de phare qui collectionne les tempêtes ou appuyez sur « Surprends-moi » : aucun conte ne se répète.\n\nLe modèle de langage s'exécute dans votre téléphone et fonctionne hors ligne : internet n'est nécessaire que la première fois, pour télécharger le modèle.",
       "features": [
         "Modèle d'IA local : sans serveur, compte ni statistiques",
         "Mode enfant : plein écran, gros caractères et sortie par PIN",
@@ -272,7 +272,7 @@
         "Voix du système avec trois vitesses de lecture",
         "Deux contes gratuits par jour ; paiement unique pour l'illimité (Google Play)"
       ],
-      "notes": "L'APK direct est le client Wi-Fi qui se connecte au PC équipé de Cuentero pour Windows. L'appli qui écrit les contes sur le téléphone lui-même est sur Google Play."
+      "notes": "Disponible uniquement sur Google Play."
     },
     "onionhost": {
       "tagline": "Publiez votre site sur le réseau Tor depuis votre mobile ou votre PC",

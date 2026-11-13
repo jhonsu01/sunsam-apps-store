@@ -452,8 +452,8 @@
       "license": "Propietaria",
       "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.cuenteroinfinito",
       "status": "play",
-      "updated": "2026-07-30",
-      "description": "Cuentero Infinito inventa cuentos que no existían hace un minuto y te los lee en voz alta. Pídele un farero que colecciona tormentas o toca «Sorpréndeme»: ningún cuento se repite.\n\nLa versión de Google Play ejecuta el modelo dentro del teléfono y funciona sin conexión. Aquí también encuentras la versión para Windows, que genera los cuentos en tu PC, y su cliente Android por WiFi.",
+      "updated": "2026-09-01",
+      "description": "Cuentero Infinito inventa cuentos que no existían hace un minuto y te los lee en voz alta. Pídele un farero que colecciona tormentas o toca «Sorpréndeme»: ningún cuento se repite.\n\nEl modelo de lenguaje se ejecuta dentro de tu teléfono y funciona sin conexión: solo hace falta internet la primera vez, para descargar el modelo.",
       "features": [
         "Modelo de IA local: sin servidores, cuentas ni analítica",
         "Modo peque: pantalla completa, letra grande y salida con PIN",
@@ -462,18 +462,10 @@
         "Dos cuentos gratis al día; pago único para ilimitados (Google Play)"
       ],
       "android": {
-        "file": "cuentero-infinito-0.1.15.apk",
-        "label": "Cliente WiFi para el PC",
-        "tag": "cuentero-v0.1.15",
-        "minAndroid": "7.0"
+        "package": "com.jhonsu01.cuenteroinfinito",
+        "minAndroid": "13"
       },
-      "windows": {
-        "label": "Cuentero para Windows (MSI)",
-        "version": "0.1.15",
-        "file": "CuenteroInfinito-0.1.15.msi",
-        "tag": "cuentero-v0.1.15"
-      },
-      "notes": "El APK directo es el cliente WiFi que se conecta al PC con el Cuentero de Windows. La app que genera los cuentos en el propio teléfono está en Google Play.",
+      "notes": "Disponible solo en Google Play.",
       "screenshots": [
         "s1.webp",
         "s2.webp",

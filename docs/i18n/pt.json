@@ -264,7 +264,7 @@
     },
     "cuentero": {
       "tagline": "Histórias inventadas por IA e lidas em voz alta",
-      "description": "O Cuentero Infinito inventa histórias que não existiam um minuto atrás e as lê em voz alta. Peça um faroleiro que coleciona tempestades ou toque em “Surpreenda-me”: nenhuma história se repete.\n\nA versão do Google Play roda o modelo dentro do celular e funciona offline. Aqui você também encontra a versão para Windows, que gera as histórias no seu PC, e seu cliente Android por Wi-Fi.",
+      "description": "O Cuentero Infinito inventa histórias que não existiam um minuto atrás e as lê em voz alta. Peça um faroleiro que coleciona tempestades ou toque em “Surpreenda-me”: nenhuma história se repete.\n\nO modelo de linguagem roda dentro do seu celular e funciona offline: só é preciso internet na primeira vez, para baixar o modelo.",
       "features": [
         "Modelo de IA local: sem servidores, contas nem análises",
         "Modo criança: tela cheia, letra grande e saída com PIN",
@@ -272,7 +272,7 @@
         "Vozes do sistema com três velocidades de leitura",
         "Duas histórias grátis por dia; pagamento único para ilimitadas (Google Play)"
       ],
-      "notes": "O APK direto é o cliente Wi-Fi que se conecta ao PC com o Cuentero para Windows. O app que cria histórias no próprio celular está no Google Play."
+      "notes": "Disponível apenas no Google Play."
     },
     "onionhost": {
       "tagline": "Publique seu site na rede Tor pelo celular ou pelo PC",

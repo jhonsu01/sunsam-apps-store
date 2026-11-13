@@ -264,7 +264,7 @@
     },
     "cuentero": {
       "tagline": "AI-invented stories read aloud",
-      "description": "Cuentero Infinito invents stories that didn't exist a minute ago and reads them aloud. Ask for a lighthouse keeper who collects storms or tap “Surprise me”: no story ever repeats.\n\nThe Google Play version runs the model inside your phone and works offline. Here you'll also find the Windows version, which generates the stories on your PC, and its Android Wi-Fi client.",
+      "description": "Cuentero Infinito invents stories that didn't exist a minute ago and reads them aloud. Ask for a lighthouse keeper who collects storms or tap “Surprise me”: no story ever repeats.\n\nThe language model runs inside your phone and works offline: you only need internet the first time, to download the model.",
       "features": [
         "Local AI model: no servers, accounts or analytics",
         "Kids mode: full screen, large text and PIN to exit",
@@ -272,7 +272,7 @@
         "System voices with three reading speeds",
         "Two free stories a day; one-time payment for unlimited (Google Play)"
       ],
-      "notes": "The direct APK is the Wi-Fi client that connects to the PC running Cuentero for Windows. The app that writes stories on the phone itself is on Google Play."
+      "notes": "Available only on Google Play."
     },
     "onionhost": {
       "tagline": "Publish your website on the Tor network from your phone or PC",
