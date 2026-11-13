@@ -98,7 +98,8 @@
     "lb_prev": "Anterior",
     "lb_next": "Siguiente",
     "btn_get_play": "Instalar desde Google Play",
-    "meta_distribution": "Distribución"
+    "meta_distribution": "Distribución",
+    "btn_get_ms": "Instalar desde Microsoft Store"
   },
   "labels": {}
 }

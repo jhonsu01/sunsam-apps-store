@@ -122,7 +122,7 @@
   }
   function platforms(app) {
     const p = ['Android'];
-    if (app.windows) p.push('Windows');
+    if (app.windows || app.msStoreUrl) p.push('Windows');
     if (app.linux) p.push('Linux');
     return p;
   }
@@ -287,6 +287,7 @@
       // Sin APK propio: se instala desde Google Play; si ya está instalada, la tienda la abre.
       if (native && installed(apk.package) >= 0) out += `<button class="btn primary" data-act="open">${ICON.android}${tx('btn_open')}</button>`;
       else out += `<a class="btn primary" href="${esc(a.playUrl)}" target="_blank" rel="noopener">${ICON.play}${tx('btn_get_play')}</a>`;
+      if (a.msStoreUrl && !a.windows) out += `<a class="btn" href="${esc(a.msStoreUrl)}" target="_blank" rel="noopener">${ICON.ms}${tx('btn_get_ms')}</a>`;
     } else if (native) {
       const act = androidAction(apk);
       out += `<button class="btn primary" data-act="${act.kind}">${ICON.android}${esc(act.label)} <small>${mb(apk.size)}</small></button>`;
@@ -300,7 +301,7 @@
   function storeLinks(a) {
     let s = '';
     if (a.playUrl && !a.playOnly) s += `<a class="btn" href="${esc(a.playUrl)}" target="_blank" rel="noopener">${ICON.play}Google Play</a>`;
-    if (a.msStoreUrl) s += `<a class="btn" href="${esc(a.msStoreUrl)}" target="_blank" rel="noopener">${ICON.ms}Microsoft Store</a>`;
+    if (a.msStoreUrl && !(a.playOnly && !a.windows)) s += `<a class="btn" href="${esc(a.msStoreUrl)}" target="_blank" rel="noopener">${ICON.ms}Microsoft Store</a>`;
     if (a.repo) s += `<a class="btn" href="${esc(a.repo)}" target="_blank" rel="noopener">${ICON.code}${tx('btn_github')}</a>`;
     if (a.website) s += `<a class="btn" href="${esc(a.website)}" target="_blank" rel="noopener">${ICON.web}${tx('btn_web')}</a>`;
     return s;

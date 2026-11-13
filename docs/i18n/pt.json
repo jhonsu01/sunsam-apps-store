@@ -98,7 +98,8 @@
     "lb_prev": "Anterior",
     "lb_next": "Próxima",
     "btn_get_play": "Instalar pelo Google Play",
-    "meta_distribution": "Distribuição"
+    "meta_distribution": "Distribuição",
+    "btn_get_ms": "Instalar pela Microsoft Store"
   },
   "labels": {
     "Propietaria": "Proprietária",
@@ -284,7 +285,7 @@
         "Espanhol e inglês",
         "1 site grátis; ilimitados com pagamento único no Google Play ou na Microsoft Store"
       ],
-      "notes": "Disponível no Google Play e na Microsoft Store. O instalador direto para Windows (.exe) não tem limite de sites."
+      "notes": "Disponível no Google Play para Android e na Microsoft Store para Windows."
     }
   }
 }

@@ -501,17 +501,10 @@
         "1 sitio gratis; ilimitados con pago único en Google Play o Microsoft Store"
       ],
       "android": {
-        "file": "OnionHost-v0.3.4-release.apk",
-        "tag": "onionhost-android-v0.3.4",
+        "package": "com.jhonsu01.onionhost",
         "minAndroid": "8.0"
       },
-      "windows": {
-        "label": "Instalador para Windows (.exe)",
-        "version": "0.4.0",
-        "file": "OnionHost.Setup.0.4.0.exe",
-        "tag": "onionhost-v0.4.0"
-      },
-      "notes": "Disponible en Google Play y Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
+      "notes": "Disponible en Google Play para Android y en Microsoft Store para Windows.",
       "screenshots": [
         "s1.webp",
         "s2.webp",

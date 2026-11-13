@@ -661,25 +661,11 @@
         "1 sitio gratis; ilimitados con pago único en Google Play o Microsoft Store"
       ],
       "android": {
-        "file": "OnionHost-v0.3.4-release.apk",
-        "minAndroid": "8.0",
         "package": "com.jhonsu01.onionhost",
-        "versionCode": 13,
-        "versionName": "0.3.4",
-        "minSdk": 26,
-        "size": 14997564,
-        "sha256": "2949ba6007a4de576baf3d0e74dce82073c35c0ca6934804286ed8fc76a74762",
-        "certSha256": "41ac4a3cda288bab7f6f6fbd9dac7afb91c432be313eb55d527888f32cda8fc5",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-android-v0.3.4/OnionHost-v0.3.4-release.apk"
+        "minAndroid": "8.0",
+        "versionName": ""
       },
-      "windows": {
-        "label": "Instalador para Windows (.exe)",
-        "version": "0.4.0",
-        "file": "OnionHost.Setup.0.4.0.exe",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-v0.4.0/OnionHost.Setup.0.4.0.exe",
-        "size": 110552914
-      },
-      "notes": "Disponible en Google Play y Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
+      "notes": "Disponible en Google Play para Android y en Microsoft Store para Windows.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -691,7 +677,7 @@
       ],
       "cover": "cover.webp",
       "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost",
-      "playOnly": false,
+      "playOnly": true,
       "openSource": false
     }
   ]

@@ -98,7 +98,8 @@
     "lb_prev": "Предыдущий",
     "lb_next": "Следующий",
     "btn_get_play": "Установить из Google Play",
-    "meta_distribution": "Распространение"
+    "meta_distribution": "Распространение",
+    "btn_get_ms": "Установить из Microsoft Store"
   },
   "labels": {
     "Propietaria": "Проприетарная",
@@ -284,7 +285,7 @@
         "Испанский и английский",
         "1 сайт бесплатно; безлимит за разовую оплату в Google Play или Microsoft Store"
       ],
-      "notes": "Доступно в Google Play и Microsoft Store. Прямой установщик для Windows (.exe) не ограничивает количество сайтов."
+      "notes": "Доступно в Google Play для Android и в Microsoft Store для Windows."
     }
   }
 }

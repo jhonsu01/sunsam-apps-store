@@ -98,7 +98,8 @@
     "lb_prev": "上一张",
     "lb_next": "下一张",
     "btn_get_play": "从 Google Play 安装",
-    "meta_distribution": "发布渠道"
+    "meta_distribution": "发布渠道",
+    "btn_get_ms": "从 Microsoft Store 安装"
   },
   "labels": {
     "Propietaria": "专有",
@@ -284,7 +285,7 @@
         "西班牙语和英语",
         "免费 1 个站点；在 Google Play 或 Microsoft Store 一次性付费即可无限制"
       ],
-      "notes": "已在 Google Play 和 Microsoft Store 上架。直接下载的 Windows 安装程序（.exe）没有站点数量限制。"
+      "notes": "Android 版可在 Google Play 获取，Windows 版可在 Microsoft Store 获取。"
     }
   }
 }

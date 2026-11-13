@@ -98,7 +98,8 @@
     "lb_prev": "Previous",
     "lb_next": "Next",
     "btn_get_play": "Install from Google Play",
-    "meta_distribution": "Distribution"
+    "meta_distribution": "Distribution",
+    "btn_get_ms": "Install from Microsoft Store"
   },
   "labels": {
     "Propietaria": "Proprietary",
@@ -284,7 +285,7 @@
         "Spanish and English",
         "1 free site; unlimited with a one-time payment on Google Play or Microsoft Store"
       ],
-      "notes": "Available on Google Play and Microsoft Store. The direct Windows installer (.exe) has no site limit."
+      "notes": "Available on Google Play for Android and on Microsoft Store for Windows."
     }
   }
 }

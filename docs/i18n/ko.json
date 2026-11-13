@@ -98,7 +98,8 @@
     "lb_prev": "이전",
     "lb_next": "다음",
     "btn_get_play": "Google Play에서 설치",
-    "meta_distribution": "배포처"
+    "meta_distribution": "배포처",
+    "btn_get_ms": "Microsoft Store에서 설치"
   },
   "labels": {
     "Propietaria": "독점",
@@ -284,7 +285,7 @@
         "스페인어와 영어",
         "사이트 1개 무료, Google Play 또는 Microsoft Store에서 한 번 결제하면 무제한"
       ],
-      "notes": "Google Play와 Microsoft Store에 출시되었습니다. Windows용 직접 설치 프로그램(.exe)은 사이트 수 제한이 없습니다."
+      "notes": "Android용은 Google Play, Windows용은 Microsoft Store에서 제공됩니다."
     }
   }
 }
