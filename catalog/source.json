@@ -128,20 +128,13 @@
         "Modos color, blanco y negro y alto contraste",
         "Escáner multipágina a PDF y recorte con los dedos",
         "Bóveda cifrada con PIN y copias de seguridad AES-256",
-        "Versión para Windows (MSI)"
+        "Comparte el PDF por WhatsApp o correo, o imprime en impresoras de red"
       ],
       "android": {
-        "file": "Documentos150-v1.0.6-android.apk",
-        "tag": "docuscaner-v1.0.6",
+        "package": "com.jhonsu01.docuscaner",
         "minAndroid": "7.0"
       },
-      "windows": {
-        "label": "Instalador MSI",
-        "version": "1.0.6",
-        "file": "Documentos150-v1.0.6-windows.msi",
-        "tag": "docuscaner-v1.0.6"
-      },
-      "notes": "El APK directo es la edición Documentos150 (paquete com.iddoc150), que se instala aparte de la versión de Google Play. La licencia ilimitada solo se compra desde Google Play.",
+      "notes": "Disponible solo en Google Play.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -171,17 +164,10 @@
         "Disponible también en Microsoft Store"
       ],
       "android": {
-        "file": "PrintOrganize-1.1.1.apk",
-        "tag": "printorganize-v1.1.1",
+        "package": "com.jhonsu01.printorganize",
         "minAndroid": "7.0"
       },
-      "windows": {
-        "label": "Instalador MSI",
-        "version": "1.1.0",
-        "file": "PrintOrganize-1.1.0.msi",
-        "tag": "printorganize-v1.1.1"
-      },
-      "notes": "Instalada fuera de Google Play la compra integrada no funciona: para la licencia ilimitada instala desde Google Play o Microsoft Store.",
+      "notes": "Disponible en Google Play para Android y en Microsoft Store para Windows.",
       "screenshots": [
         "s1.webp",
         "s2.webp",

@@ -174,9 +174,9 @@
         "Modos colorido, preto e branco e alto contraste",
         "Scanner de várias páginas para PDF e recorte com os dedos",
         "Cofre criptografado com PIN e backups AES-256",
-        "Versão para Windows (MSI)"
+        "Compartilhe o PDF por WhatsApp ou e-mail, ou imprima em impressoras de rede"
       ],
-      "notes": "O APK direto é a edição Documentos150 (pacote com.iddoc150), que é instalada separadamente da versão do Google Play. A licença ilimitada só pode ser comprada no Google Play."
+      "notes": "Disponível apenas no Google Play."
     },
     "printorganize": {
       "tagline": "Suas fotos no Word com a medida exata em centímetros",
@@ -189,7 +189,7 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP e HEIC",
         "Também disponível na Microsoft Store"
       ],
-      "notes": "Instalado fora do Google Play, a compra no app não funciona: para a licença ilimitada, instale pelo Google Play ou pela Microsoft Store."
+      "notes": "Disponível no Google Play para Android e na Microsoft Store para Windows."
     },
     "compartirarchivosred": {
       "tagline": "Envie arquivos entre Android, Windows e Linux pelo seu Wi-Fi",

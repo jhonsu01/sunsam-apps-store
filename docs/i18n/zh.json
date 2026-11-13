@@ -174,9 +174,9 @@
         "彩色、黑白和高对比度模式",
         "多页扫描为 PDF，可用手指裁剪",
         "PIN 保护的加密保险箱和 AES-256 备份",
-        "提供 Windows 版（MSI）"
+        "通过 WhatsApp 或电子邮件分享 PDF，或用网络打印机打印"
       ],
-      "notes": "直接下载的 APK 是 Documentos150 版本（包名 com.iddoc150），会与 Google Play 版本分开安装。无限许可证只能在 Google Play 购买。"
+      "notes": "仅在 Google Play 提供。"
     },
     "printorganize": {
       "tagline": "按厘米精确尺寸把照片排进 Word",
@@ -189,7 +189,7 @@
         "支持 PNG、JPG、GIF、BMP、TIFF、WEBP 和 HEIC",
         "也可在 Microsoft Store 获取"
       ],
-      "notes": "在 Google Play 之外安装时，应用内购买无法使用：如需无限许可证，请从 Google Play 或 Microsoft Store 安装。"
+      "notes": "Android 版可在 Google Play 获取，Windows 版可在 Microsoft Store 获取。"
     },
     "compartirarchivosred": {
       "tagline": "通过 Wi-Fi 在 Android、Windows 和 Linux 之间传文件",

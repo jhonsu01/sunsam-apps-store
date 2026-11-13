@@ -162,28 +162,14 @@
         "Modos color, blanco y negro y alto contraste",
         "Escáner multipágina a PDF y recorte con los dedos",
         "Bóveda cifrada con PIN y copias de seguridad AES-256",
-        "Versión para Windows (MSI)"
+        "Comparte el PDF por WhatsApp o correo, o imprime en impresoras de red"
       ],
       "android": {
-        "file": "Documentos150-v1.0.6-android.apk",
+        "package": "com.jhonsu01.docuscaner",
         "minAndroid": "7.0",
-        "package": "com.iddoc150",
-        "versionCode": 7,
-        "versionName": "1.0.6",
-        "minSdk": 24,
-        "size": 16173118,
-        "sha256": "3201b350ea3d0fbe12567504c4a0755e742a6a0ae38b0ee925f8554652bb74c3",
-        "certSha256": "e62c30e4ef4d618b65544b25757e98ccd371f95698b284ada79f49aa85136a80",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/docuscaner-v1.0.6/Documentos150-v1.0.6-android.apk"
+        "versionName": ""
       },
-      "windows": {
-        "label": "Instalador MSI",
-        "version": "1.0.6",
-        "file": "Documentos150-v1.0.6-windows.msi",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/docuscaner-v1.0.6/Documentos150-v1.0.6-windows.msi",
-        "size": 82568136
-      },
-      "notes": "El APK directo es la edición Documentos150 (paquete com.iddoc150), que se instala aparte de la versión de Google Play. La licencia ilimitada solo se compra desde Google Play.",
+      "notes": "Disponible solo en Google Play.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -192,7 +178,7 @@
         "s5.webp",
         "s6.webp"
       ],
-      "playOnly": false,
+      "playOnly": true,
       "openSource": false
     },
     {
@@ -215,25 +201,11 @@
         "Disponible también en Microsoft Store"
       ],
       "android": {
-        "file": "PrintOrganize-1.1.1.apk",
-        "minAndroid": "7.0",
         "package": "com.jhonsu01.printorganize",
-        "versionCode": 3,
-        "versionName": "1.1.1",
-        "minSdk": 24,
-        "size": 9189038,
-        "sha256": "ab4480bde42b728961f29e58dc0d16644664ce9d001ffd94c24347bb3911f5e7",
-        "certSha256": "8968d40d1d020e8f693770392e270f24424454b1083ce8fbb5362d18ccc6dd2e",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/printorganize-v1.1.1/PrintOrganize-1.1.1.apk"
+        "minAndroid": "7.0",
+        "versionName": ""
       },
-      "windows": {
-        "label": "Instalador MSI",
-        "version": "1.1.0",
-        "file": "PrintOrganize-1.1.0.msi",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/printorganize-v1.1.1/PrintOrganize-1.1.0.msi",
-        "size": 63586908
-      },
-      "notes": "Instalada fuera de Google Play la compra integrada no funciona: para la licencia ilimitada instala desde Google Play o Microsoft Store.",
+      "notes": "Disponible en Google Play para Android y en Microsoft Store para Windows.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -245,7 +217,7 @@
         "w2.webp",
         "w3.webp"
       ],
-      "playOnly": false,
+      "playOnly": true,
       "openSource": false
     },
     {

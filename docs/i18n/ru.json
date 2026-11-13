@@ -174,9 +174,9 @@
         "Цветной, чёрно-белый и контрастный режимы",
         "Многостраничное сканирование в PDF и обрезка пальцами",
         "Зашифрованное хранилище с PIN-кодом и резервные копии AES-256",
-        "Версия для Windows (MSI)"
+        "Отправляйте PDF через WhatsApp или по почте либо печатайте на сетевых принтерах"
       ],
-      "notes": "Прямая загрузка APK — это издание Documentos150 (пакет com.iddoc150), которое устанавливается отдельно от версии из Google Play. Безлимитную лицензию можно купить только в Google Play."
+      "notes": "Доступно только в Google Play."
     },
     "printorganize": {
       "tagline": "Фото в Word точно нужного размера в сантиметрах",
@@ -189,7 +189,7 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP и HEIC",
         "Также доступно в Microsoft Store"
       ],
-      "notes": "При установке не из Google Play встроенные покупки не работают: для безлимитной лицензии установите приложение из Google Play или Microsoft Store."
+      "notes": "Доступно в Google Play для Android и в Microsoft Store для Windows."
     },
     "compartirarchivosred": {
       "tagline": "Передавайте файлы между Android, Windows и Linux по Wi-Fi",

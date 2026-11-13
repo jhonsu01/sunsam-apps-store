@@ -174,9 +174,9 @@
         "Modes couleur, noir et blanc et contraste élevé",
         "Scanner multipage vers PDF et recadrage au doigt",
         "Coffre chiffré protégé par PIN et sauvegardes AES-256",
-        "Version Windows (MSI)"
+        "Partagez le PDF par WhatsApp ou e-mail, ou imprimez sur des imprimantes réseau"
       ],
-      "notes": "L'APK direct correspond à l'édition Documentos150 (paquet com.iddoc150), qui s'installe à part de la version Google Play. La licence illimitée s'achète uniquement sur Google Play."
+      "notes": "Disponible uniquement sur Google Play."
     },
     "printorganize": {
       "tagline": "Vos photos dans Word à la taille exacte en centimètres",
@@ -189,7 +189,7 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP et HEIC",
         "Aussi disponible sur Microsoft Store"
       ],
-      "notes": "Installée hors de Google Play, l'achat intégré ne fonctionne pas : pour la licence illimitée, installez-la depuis Google Play ou Microsoft Store."
+      "notes": "Disponible sur Google Play pour Android et sur Microsoft Store pour Windows."
     },
     "compartirarchivosred": {
       "tagline": "Envoyez des fichiers entre Android, Windows et Linux par votre Wi-Fi",

@@ -174,9 +174,9 @@
         "컬러, 흑백, 고대비 모드",
         "여러 페이지를 PDF로 스캔하고 손가락으로 자르기",
         "PIN으로 보호되는 암호화 보관함과 AES-256 백업",
-        "Windows 버전(MSI) 제공"
+        "PDF를 WhatsApp이나 이메일로 공유하거나 네트워크 프린터로 인쇄"
       ],
-      "notes": "직접 다운로드하는 APK는 Documentos150 에디션(패키지 com.iddoc150)으로, Google Play 버전과 별도로 설치됩니다. 무제한 라이선스는 Google Play에서만 구매할 수 있습니다."
+      "notes": "Google Play에서만 제공됩니다."
     },
     "printorganize": {
       "tagline": "사진을 센티미터 단위의 정확한 크기로 Word에 배치",
@@ -189,7 +189,7 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP, HEIC 지원",
         "Microsoft Store에서도 제공"
       ],
-      "notes": "Google Play 외부에서 설치하면 인앱 구매가 작동하지 않습니다. 무제한 라이선스를 원하면 Google Play 또는 Microsoft Store에서 설치하세요."
+      "notes": "Android용은 Google Play, Windows용은 Microsoft Store에서 제공됩니다."
     },
     "compartirarchivosred": {
       "tagline": "Wi-Fi로 Android, Windows, Linux 간 파일 전송",

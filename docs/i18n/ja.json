@@ -174,9 +174,9 @@
         "カラー、白黒、高コントラストの各モード",
         "複数ページを PDF にスキャン、指でトリミング",
         "PIN で保護された暗号化保管庫と AES-256 バックアップ",
-        "Windows 版（MSI）あり"
+        "PDF を WhatsApp やメールで共有、またはネットワークプリンターで印刷"
       ],
-      "notes": "直接ダウンロードできる APK は Documentos150 版（パッケージ com.iddoc150）で、Google Play 版とは別アプリとしてインストールされます。無制限ライセンスは Google Play でのみ購入できます。"
+      "notes": "Google Play でのみ配信しています。"
     },
     "printorganize": {
       "tagline": "写真をセンチ単位の正確なサイズで Word に配置",
@@ -189,7 +189,7 @@
         "PNG、JPG、GIF、BMP、TIFF、WEBP、HEIC に対応",
         "Microsoft Store でも配信中"
       ],
-      "notes": "Google Play 以外からインストールした場合、アプリ内購入は利用できません。無制限ライセンスをご希望の場合は Google Play または Microsoft Store からインストールしてください。"
+      "notes": "Android 版は Google Play、Windows 版は Microsoft Store で配信しています。"
     },
     "compartirarchivosred": {
       "tagline": "Wi-Fi で Android、Windows、Linux 間のファイルを送受信",

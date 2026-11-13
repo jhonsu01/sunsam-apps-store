@@ -174,9 +174,9 @@
         "Color, black and white and high-contrast modes",
         "Multi-page scanner to PDF and finger cropping",
         "PIN-protected encrypted vault and AES-256 backups",
-        "Windows version (MSI)"
+        "Share the PDF via WhatsApp or email, or print to network printers"
       ],
-      "notes": "The direct APK is the Documentos150 edition (package com.iddoc150), which installs separately from the Google Play version. The unlimited license can only be bought on Google Play."
+      "notes": "Available only on Google Play."
     },
     "printorganize": {
       "tagline": "Your photos in Word at the exact size in centimeters",
@@ -189,7 +189,7 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP and HEIC",
         "Also available on Microsoft Store"
       ],
-      "notes": "Installed outside Google Play, in-app purchase doesn't work: for the unlimited license, install from Google Play or Microsoft Store."
+      "notes": "Available on Google Play for Android and on Microsoft Store for Windows."
     },
     "compartirarchivosred": {
       "tagline": "Send files between Android, Windows and Linux over your Wi-Fi",
