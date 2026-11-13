@@ -21,7 +21,7 @@ Descarga directa de APK e instaladores de Windows, verificados con SHA-256, sin 
 | `docs/` | La tienda web estática, publicada en GitHub Pages. |
 | `docs/apps.json` | El catálogo abierto: fichas, versiones, tamaños, **SHA-256** de cada APK y huella de su certificado de firma. |
 | `android/` | La app Android de la tienda: muestra la tienda web y añade instalar, actualizar y abrir apps con un toque. |
-| [Releases](https://github.com/jhonsu01/sunsam-apps-store/releases) | Binarios de las apps con **código privado** (solo el instalador, nunca el código) y el APK de la tienda. |
+| [Releases](https://github.com/jhonsu01/sunsam-apps-store/releases) | Binarios de las apps con **código privado** (solo el instalador, nunca el código) y el APK de la tienda. Las apps marcadas «Solo tiendas» no publican binarios: la ficha enlaza a Google Play o Microsoft Store. |
 
 Las apps de código abierto se descargan directamente desde el release de su propio repositorio.
 
@@ -45,21 +45,25 @@ Certificado de la app de la tienda (SHA-256):
 
 ## Catálogo
 
-| App | Plataformas | Estado |
-| --- | --- | --- |
-| OpenCallShield | Android | Google Play · código abierto |
-| SafeVault | Android | En revisión en Google Play |
-| IDPersonalSecure | Android · Windows | Código abierto |
-| Docu Scaner 150% | Android · Windows | Google Play |
-| PrintOrganize | Android · Windows | Google Play · Microsoft Store |
-| Compartir Archivos RED | Android · Windows · Linux | Código abierto |
-| OpenWirelessDisplay | Android · Windows | Código abierto |
-| PayBio | Android | Código abierto |
-| Turnos Dispensario | Android · Windows | Código abierto |
-| Reciclaje Turnero | Android · Windows | Código abierto |
-| Klanly | Android · Windows | Código abierto |
-| Cuentero Infinito | Android · Windows | Google Play |
-| OnionHost | Android · Windows | Microsoft Store · en revisión en Google Play |
+<!-- catalogo:inicio -->
+_Generado desde `docs/apps.json` el 2026-11-13 con `tools/readme_catalog.py`._
+
+| App | Versión | Plataformas | Descarga | Tiendas y código |
+| --- | --- | --- | --- | --- |
+| [OpenCallShield](https://jhonsu01.github.io/sunsam-apps-store/#/app/opencallshield) | 1.5.0 | Android | Directa (APK) | [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.opencallshield) · [código abierto](https://github.com/jhonsu01/OpenCallShield) |
+| [SafeVault](https://jhonsu01.github.io/sunsam-apps-store/#/app/safevault) | — | Android | Solo tiendas: [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu.safevault) | código privado |
+| [IDPersonalSecure](https://jhonsu01.github.io/sunsam-apps-store/#/app/idpersonalsecure) | 0.5.0 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/IDPersonalSecure) |
+| [Docu Scaner 150%](https://jhonsu01.github.io/sunsam-apps-store/#/app/docuscaner) | 1.0.6 | Android · Windows | Directa (APK · Windows) | [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.docuscaner) · código privado |
+| [PrintOrganize](https://jhonsu01.github.io/sunsam-apps-store/#/app/printorganize) | 1.1.1 · 1.1.0 (Windows) | Android · Windows | Directa (APK · Windows) | [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.printorganize) · [Microsoft Store](https://apps.microsoft.com/detail/9p11kr2pgx26) · código privado |
+| [Compartir Archivos RED](https://jhonsu01.github.io/sunsam-apps-store/#/app/compartirarchivosred) | 0.7.0 | Android · Windows · Linux | Directa (APK · Windows · Linux) | [código abierto](https://github.com/jhonsu01/CompartirArchivosRED) |
+| [OpenWirelessDisplay](https://jhonsu01.github.io/sunsam-apps-store/#/app/openwirelessdisplay) | 0.2.1 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/OpenWirelessDisplay) |
+| [PayBio](https://jhonsu01.github.io/sunsam-apps-store/#/app/paybio) | 1.7.1 | Android | Directa (APK) | [código abierto](https://github.com/jhonsu01/PayBioApp) |
+| [Turnos Dispensario](https://jhonsu01.github.io/sunsam-apps-store/#/app/turnosdispensario) | 0.7.1 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/TurnosDespachoDispensario) |
+| [Reciclaje Turnero](https://jhonsu01.github.io/sunsam-apps-store/#/app/reciclaje) | 0.8.1 | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/ReciclajeApp) |
+| [Klanly](https://jhonsu01.github.io/sunsam-apps-store/#/app/klanly) | 0.8.0 · 0.6.0 (Windows) | Android · Windows | Directa (APK · Windows) | [código abierto](https://github.com/jhonsu01/klanly) |
+| [Cuentero Infinito](https://jhonsu01.github.io/sunsam-apps-store/#/app/cuentero) | 0.1.15 | Android · Windows | Directa (APK · Windows) | [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.cuenteroinfinito) · código privado |
+| [OnionHost](https://jhonsu01.github.io/sunsam-apps-store/#/app/onionhost) | — | Android · Windows | Solo tiendas: [Google Play](https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost) · [Microsoft Store](https://apps.microsoft.com/detail/9pdgf2wst45f) | código privado |
+<!-- catalogo:fin -->
 
 ## Añadir o actualizar una app
 
@@ -77,6 +81,12 @@ python tools/build_catalog.py --apks <carpeta_apks> --win <carpeta_instaladores>
 
 ```bash
 python tools/check_i18n.py
+```
+
+6. Regenera la tabla «Catálogo» de este README:
+
+```bash
+python tools/readme_catalog.py
 ```
 
 ## Compilar la app de la tienda
