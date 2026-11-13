@@ -96,7 +96,9 @@
     "shots_lang_note": "Screenshots are shown in the app's original language.",
     "lb_close": "Close",
     "lb_prev": "Previous",
-    "lb_next": "Next"
+    "lb_next": "Next",
+    "btn_get_play": "Install from Google Play",
+    "meta_distribution": "Distribution"
   },
   "labels": {
     "Propietaria": "Proprietary",
@@ -149,7 +151,7 @@
         "8 languages and dark mode",
         "Android 9 or later"
       ],
-      "notes": "In testing on Google Play (v0.6.2). The direct APK is version 0.6.1."
+      "notes": "Available only on Google Play."
     },
     "idpersonalsecure": {
       "tagline": "Your encrypted digital wallet for IDs, no cloud",
@@ -280,9 +282,9 @@
         "Per-site switch, preview and log console",
         "Share the address or open it in Tor Browser",
         "Spanish and English",
-        "1 free site; unlimited with a one-time payment in the stores"
+        "1 free site; unlimited with a one-time payment on Google Play or Microsoft Store"
       ],
-      "notes": "In review on Google Play; already available on Microsoft Store. The direct Windows installer (.exe) has no site limit."
+      "notes": "Available on Google Play and Microsoft Store. The direct Windows installer (.exe) has no site limit."
     }
   }
 }

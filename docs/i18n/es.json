@@ -96,7 +96,9 @@
     "shots_lang_note": "Las capturas se muestran en el idioma original de la app.",
     "lb_close": "Cerrar",
     "lb_prev": "Anterior",
-    "lb_next": "Siguiente"
+    "lb_next": "Siguiente",
+    "btn_get_play": "Instalar desde Google Play",
+    "meta_distribution": "Distribución"
   },
   "labels": {}
 }

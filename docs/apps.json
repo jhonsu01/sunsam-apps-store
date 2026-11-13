@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-23",
+  "generated": "2026-11-13",
   "store": {
     "name": "Sunsam Apps Store",
     "author": "Jhon Supelano (jhonsu01)",
@@ -36,7 +36,7 @@
       "repo": "https://github.com/jhonsu01/OpenCallShield",
       "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.opencallshield",
       "status": "play",
-      "updated": "2026-08-30",
+      "updated": "2026-10-20",
       "description": "Alternativa privada y descentralizada a Truecaller. OpenCallShield usa el servicio oficial de filtrado de llamadas de Android (10 o superior) para rechazar o silenciar llamadas SPAM antes de que suene el teléfono.\n\nTodo se decide en tu dispositivo con un motor de reglas y una base local; la lista de números reportados se sincroniza con un archivo público en GitHub al que cualquiera puede aportar.",
       "features": [
         "Bloqueo automático: rechaza o silencia las llamadas SPAM",
@@ -47,15 +47,15 @@
         "Código abierto (MIT), sin anuncios ni rastreadores"
       ],
       "android": {
-        "file": "OpenCallShield-v1.4.3-release.apk",
-        "url": "https://github.com/jhonsu01/OpenCallShield/releases/download/v1.4.3/OpenCallShield-v1.4.3-release.apk",
+        "file": "OpenCallShield-v1.5.0.apk",
+        "url": "https://github.com/jhonsu01/OpenCallShield/releases/download/v1.5.0/OpenCallShield-v1.5.0.apk",
         "minAndroid": "10",
         "package": "com.jhonsu01.opencallshield",
-        "versionCode": 10403,
-        "versionName": "1.4.3",
+        "versionCode": 10500,
+        "versionName": "1.5.0",
         "minSdk": 29,
-        "size": 43634383,
-        "sha256": "5a84999f6b701b0eb56993b9873b43f772599669562e1984402d95c7126b3033",
+        "size": 44845782,
+        "sha256": "f79b147394a8e221db93b438d740479c5ba53a929dcbe2fc0b0df715e6eeebd6",
         "certSha256": "0d1fb925785082128eb9342aa814782ebf46b39082398d12426abadcfafbeec8"
       },
       "screenshots": [
@@ -64,6 +64,7 @@
         "s3.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -72,7 +73,7 @@
       "tagline": "IA en tu teléfono detecta fotos sensibles y las cifra",
       "category": "seguridad",
       "license": "Propietaria",
-      "status": "review",
+      "status": "play",
       "updated": "2026-09-21",
       "description": "SafeVault analiza tu galería y tu cámara con modelos de IA que se ejecutan dentro del teléfono, decide qué imágenes son sensibles (documentos, tarjetas, capturas privadas) y las guarda en una bóveda cifrada con AES-256 que solo abre tu huella, el bloqueo del teléfono o tu contraseña.\n\nNo tiene servidor propio: la única conexión a internet es la descarga inicial de los modelos. Cero nube, cero cuentas.",
       "features": [
@@ -84,18 +85,11 @@
         "Android 9 o superior"
       ],
       "android": {
-        "file": "SafeVault-v0.6.1.apk",
-        "minAndroid": "9",
         "package": "com.jhonsu.safevault",
-        "versionCode": 12,
-        "versionName": "0.6.1",
-        "minSdk": 28,
-        "size": 46703687,
-        "sha256": "5b28fa410468d2f688830e6bb1b98e629052a1981ce3a2d4d94c4450f5c1923b",
-        "certSha256": "c087d48106afb899af4b05dcd2bd7c9abe29b5ac849e3f30806fec201e2dee28",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/safevault-v0.6.1/SafeVault-v0.6.1.apk"
+        "minAndroid": "9",
+        "versionName": ""
       },
-      "notes": "En pruebas de Google Play (v0.6.2). El APK directo es la versión 0.6.1.",
+      "notes": "Disponible solo en Google Play.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -105,6 +99,8 @@
         "s6.webp"
       ],
       "cover": "cover.webp",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu.safevault",
+      "playOnly": true,
       "openSource": false
     },
     {
@@ -147,6 +143,7 @@
         "s3.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -195,6 +192,7 @@
         "s5.webp",
         "s6.webp"
       ],
+      "playOnly": false,
       "openSource": false
     },
     {
@@ -247,6 +245,7 @@
         "w2.webp",
         "w3.webp"
       ],
+      "playOnly": false,
       "openSource": false
     },
     {
@@ -294,6 +293,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -336,6 +336,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -372,6 +373,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -462,6 +464,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -531,6 +534,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -587,6 +591,7 @@
         "s2.webp"
       ],
       "cover": "cover.webp",
+      "playOnly": false,
       "openSource": true
     },
     {
@@ -634,6 +639,7 @@
         "s4.webp",
         "s5.webp"
       ],
+      "playOnly": false,
       "openSource": false
     },
     {
@@ -643,8 +649,8 @@
       "category": "herramientas",
       "license": "Propietaria",
       "msStoreUrl": "https://apps.microsoft.com/detail/9pdgf2wst45f",
-      "status": "review",
-      "updated": "2026-09-17",
+      "status": "play",
+      "updated": "2026-09-23",
       "description": "OnionHost convierte tu página web o portafolio en un sitio de la red Tor con su propia dirección .onion, accesible desde cualquier parte del mundo. Sin registros, sin dominios que comprar y sin conocimientos técnicos: eliges la carpeta de tu web, enciendes el interruptor y tu sitio queda en línea.\n\nEl propio dispositivo sirve el sitio: no se sube nada a ningún servidor.",
       "features": [
         "Dirección .onion propia (servicios ocultos v3) generada en tu dispositivo",
@@ -652,19 +658,19 @@
         "Interruptor por sitio, vista previa y consola de registros",
         "Comparte la dirección o ábrela en Tor Browser",
         "Español e inglés",
-        "1 sitio gratis; ilimitados con pago único en las tiendas"
+        "1 sitio gratis; ilimitados con pago único en Google Play o Microsoft Store"
       ],
       "android": {
-        "file": "OnionHost-v0.3.3-release.apk",
+        "file": "OnionHost-v0.3.4-release.apk",
         "minAndroid": "8.0",
         "package": "com.jhonsu01.onionhost",
-        "versionCode": 12,
-        "versionName": "0.3.3",
+        "versionCode": 13,
+        "versionName": "0.3.4",
         "minSdk": 26,
-        "size": 18630548,
-        "sha256": "4800801186673bc1ca2afa47a7c0240e15c127af538724c98e3c9e4413063ddb",
+        "size": 14997564,
+        "sha256": "2949ba6007a4de576baf3d0e74dce82073c35c0ca6934804286ed8fc76a74762",
         "certSha256": "41ac4a3cda288bab7f6f6fbd9dac7afb91c432be313eb55d527888f32cda8fc5",
-        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-v0.4.0/OnionHost-v0.3.3-release.apk"
+        "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-android-v0.3.4/OnionHost-v0.3.4-release.apk"
       },
       "windows": {
         "label": "Instalador para Windows (.exe)",
@@ -673,7 +679,7 @@
         "url": "https://github.com/jhonsu01/sunsam-apps-store/releases/download/onionhost-v0.4.0/OnionHost.Setup.0.4.0.exe",
         "size": 110552914
       },
-      "notes": "En revisión en Google Play; ya disponible en Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
+      "notes": "Disponible en Google Play y Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
       "screenshots": [
         "s1.webp",
         "s2.webp",
@@ -684,6 +690,8 @@
         "s5.webp"
       ],
       "cover": "cover.webp",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost",
+      "playOnly": false,
       "openSource": false
     }
   ]

@@ -231,8 +231,10 @@
       </section>
 
       <div class="meta">
-        <div><b>${esc(apk.versionName)}</b><span>${tx('meta_version')}</span></div>
-        <div><b>${mb(apk.size)}</b><span>${tx('meta_size')}</span></div>
+        ${a.playOnly
+          ? `<div><b>Google Play</b><span>${tx('meta_distribution')}</span></div>`
+          : `<div><b>${esc(apk.versionName)}</b><span>${tx('meta_version')}</span></div>
+        <div><b>${mb(apk.size)}</b><span>${tx('meta_size')}</span></div>`}
         <div><b>${tx('meta_android', { v: apk.minAndroid })}</b><span>${tx('meta_req')}</span></div>
         <div><b>${fmtDate(a.updated)}</b><span>${tx('meta_updated')}</span></div>
         <div><b>${esc(label(a.license))}</b><span>${tx('meta_license')}</span></div>
@@ -259,13 +261,13 @@
           <h2>${tx('tech_info')}</h2>
           <dl class="panel">
             <div class="kv"><dt>${tx('pkg')}</dt><dd class="mono">${esc(apk.package)}</dd></div>
-            <div class="kv"><dt>${tx('version_code')}</dt><dd>${apk.versionCode}</dd></div>
+            ${a.playOnly ? '' : `<div class="kv"><dt>${tx('version_code')}</dt><dd>${apk.versionCode}</dd></div>
             <div class="kv"><dt>${tx('apk_sha')}</dt><dd class="mono">${esc(apk.sha256)}</dd></div>
-            <div class="kv"><dt>${tx('cert')}</dt><dd class="mono">${esc(apk.certSha256 || '—')}</dd></div>
+            <div class="kv"><dt>${tx('cert')}</dt><dd class="mono">${esc(apk.certSha256 || '—')}</dd></div>`}
             <div class="kv"><dt>${tx('source_code')}</dt><dd>${a.repo ? `<a href="${esc(a.repo)}">${esc(a.repo.replace('https://github.com/', ''))}</a>` : tx('source_private')}</dd></div>
           </dl>
-          <h2>${tx('other_sources')}</h2>
-          <div class="actions">${storeLinks(a) || `<span class="muted">${tx('only_here')}</span>`}</div>
+          ${storeLinks(a) || !a.playOnly ? `<h2>${tx('other_sources')}</h2>
+          <div class="actions">${storeLinks(a) || `<span class="muted">${tx('only_here')}</span>`}</div>` : ''}
         </aside>
       </div>`;
 
@@ -281,7 +283,11 @@
   function actionButtons(a) {
     const apk = a.android;
     let out = '';
-    if (native) {
+    if (a.playOnly) {
+      // Sin APK propio: se instala desde Google Play; si ya está instalada, la tienda la abre.
+      if (native && installed(apk.package) >= 0) out += `<button class="btn primary" data-act="open">${ICON.android}${tx('btn_open')}</button>`;
+      else out += `<a class="btn primary" href="${esc(a.playUrl)}" target="_blank" rel="noopener">${ICON.play}${tx('btn_get_play')}</a>`;
+    } else if (native) {
       const act = androidAction(apk);
       out += `<button class="btn primary" data-act="${act.kind}">${ICON.android}${esc(act.label)} <small>${mb(apk.size)}</small></button>`;
     } else {
@@ -293,7 +299,7 @@
 
   function storeLinks(a) {
     let s = '';
-    if (a.playUrl) s += `<a class="btn" href="${esc(a.playUrl)}" target="_blank" rel="noopener">${ICON.play}Google Play</a>`;
+    if (a.playUrl && !a.playOnly) s += `<a class="btn" href="${esc(a.playUrl)}" target="_blank" rel="noopener">${ICON.play}Google Play</a>`;
     if (a.msStoreUrl) s += `<a class="btn" href="${esc(a.msStoreUrl)}" target="_blank" rel="noopener">${ICON.ms}Microsoft Store</a>`;
     if (a.repo) s += `<a class="btn" href="${esc(a.repo)}" target="_blank" rel="noopener">${ICON.code}${tx('btn_github')}</a>`;
     if (a.website) s += `<a class="btn" href="${esc(a.website)}" target="_blank" rel="noopener">${ICON.web}${tx('btn_web')}</a>`;
@@ -304,13 +310,13 @@
     const rows = [];
     const small = (svg) => svg.replace('<svg', '<svg width="16" height="16"');
     const apkRow = (x, name) => rows.push(`<a class="file" href="${esc(x.url)}" title="SHA-256: ${esc(x.sha256)}">${small(ICON.android)} ${esc(name)} · ${esc(x.versionName)}<span>${mb(x.size)}</span></a>`);
-    apkRow(a.android, a.android.label ? label(a.android.label) : t('apk_default_label'));
+    if (!a.playOnly) apkRow(a.android, a.android.label ? label(a.android.label) : t('apk_default_label'));
     (a.extraApks || []).forEach((x) => apkRow(x, label(x.label)));
     const fileRow = (x, icon) => rows.push(`<a class="file" href="${esc(x.url)}">${small(icon)} ${esc(label(x.label))} · ${esc(x.version)}<span>${mb(x.size)}</span></a>`);
     if (a.windows) fileRow(a.windows, ICON.windows);
     (a.windowsExtra || []).forEach((x) => fileRow(x, ICON.windows));
     if (a.linux) fileRow(a.linux, ICON.linux);
-    return `<h2>${tx('all_downloads')}</h2><div class="files">${rows.join('')}</div>`;
+    return rows.length ? `<h2>${tx('all_downloads')}</h2><div class="files">${rows.join('')}</div>` : '';
   }
 
   const progressHtml = () => `<div class="progress"><i></i></div><div class="muted" id="dl-msg" style="font-size:14px;margin-top:6px">${tx('preparing')}</div>`;

@@ -96,7 +96,9 @@
     "shots_lang_note": "스크린샷은 앱의 원래 언어로 표시됩니다.",
     "lb_close": "닫기",
     "lb_prev": "이전",
-    "lb_next": "다음"
+    "lb_next": "다음",
+    "btn_get_play": "Google Play에서 설치",
+    "meta_distribution": "배포처"
   },
   "labels": {
     "Propietaria": "독점",
@@ -149,7 +151,7 @@
         "8개 언어와 다크 모드",
         "Android 9 이상"
       ],
-      "notes": "Google Play에서 테스트 중입니다(v0.6.2). 직접 다운로드하는 APK는 0.6.1 버전입니다."
+      "notes": "Google Play에서만 제공됩니다."
     },
     "idpersonalsecure": {
       "tagline": "클라우드 없는 암호화 디지털 신분증 지갑",
@@ -280,9 +282,9 @@
         "사이트별 스위치, 미리보기, 로그 콘솔",
         "주소를 공유하거나 Tor Browser에서 열기",
         "스페인어와 영어",
-        "사이트 1개 무료, 스토어에서 한 번 결제하면 무제한"
+        "사이트 1개 무료, Google Play 또는 Microsoft Store에서 한 번 결제하면 무제한"
       ],
-      "notes": "Google Play에서 심사 중이며 Microsoft Store에는 이미 출시되었습니다. Windows용 직접 설치 프로그램(.exe)은 사이트 수 제한이 없습니다."
+      "notes": "Google Play와 Microsoft Store에 출시되었습니다. Windows용 직접 설치 프로그램(.exe)은 사이트 수 제한이 없습니다."
     }
   }
 }

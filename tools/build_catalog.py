@@ -84,7 +84,11 @@ def main():
     apps = []
     for app in src['apps']:
         a = dict(app)
-        a['android'] = resolve_apk(app['android'], args.apks, base)
+        # Sin "file": la app se distribuye solo por su tienda (playUrl); se publica el paquete, no un APK.
+        a['playOnly'] = 'file' not in app['android']
+        if a['playOnly'] and not app.get('playUrl'):
+            sys.exit(f"{app['id']}: sin APK hace falta playUrl")
+        a['android'] = dict(app['android'], versionName='') if a['playOnly'] else resolve_apk(app['android'], args.apks, base)
         if 'extraApks' in app:
             a['extraApks'] = [resolve_apk(e, args.apks, base) for e in app['extraApks']]
         for key in ('windows', 'linux'):
@@ -94,7 +98,7 @@ def main():
             a['windowsExtra'] = [resolve_file(e, args.win, base) for e in app['windowsExtra']]
         a['openSource'] = 'repo' in app
         apps.append(a)
-        print(f"  {a['id']:<22} {a['android']['package']:<32} {a['android']['versionName']}")
+        print(f"  {a['id']:<22} {a['android']['package']:<32} {a['android']['versionName'] or 'solo Google Play'}")
 
     catalog = {
         'schema': 1,

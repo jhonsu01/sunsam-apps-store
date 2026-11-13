@@ -96,7 +96,9 @@
     "shots_lang_note": "スクリーンショットはアプリの元の言語で表示されます。",
     "lb_close": "閉じる",
     "lb_prev": "前へ",
-    "lb_next": "次へ"
+    "lb_next": "次へ",
+    "btn_get_play": "Google Play からインストール",
+    "meta_distribution": "配信元"
   },
   "labels": {
     "Propietaria": "プロプライエタリ",
@@ -149,7 +151,7 @@
         "8 言語とダークモード",
         "Android 9 以上"
       ],
-      "notes": "Google Play でテスト中です（v0.6.2）。直接ダウンロードできる APK はバージョン 0.6.1 です。"
+      "notes": "Google Play でのみ配信しています。"
     },
     "idpersonalsecure": {
       "tagline": "クラウド不要の暗号化デジタル身分証ケース",
@@ -280,9 +282,9 @@
         "サイトごとのスイッチ、プレビュー、ログコンソール",
         "アドレスを共有したり Tor Browser で開いたり",
         "スペイン語と英語",
-        "1 サイトは無料、ストアでの買い切りで無制限"
+        "1 サイトは無料、Google Play または Microsoft Store での買い切りで無制限"
       ],
-      "notes": "Google Play で審査中です。Microsoft Store ではすでに配信中です。Windows 用の直接インストーラー（.exe）にはサイト数の制限がありません。"
+      "notes": "Google Play と Microsoft Store で配信中です。Windows 用の直接インストーラー（.exe）にはサイト数の制限がありません。"
     }
   }
 }

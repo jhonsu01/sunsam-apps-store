@@ -66,6 +66,7 @@ Certificado de la app de la tienda (SHA-256):
 1. Edita `catalog/source.json` (ficha, capturas y archivos).
 2. Pon las imágenes en `docs/img/<id>/` (`icon.png`, `cover.webp`, `s1.webp`…).
 3. Si el código es privado, sube el binario a un release de este repo con la etiqueta indicada en `tag`.
+   Para una app que solo se distribuye por Google Play, deja `android` sin `file` (solo `package` y `minAndroid`) y pon `playUrl`: la ficha mostrará "Instalar desde Google Play" en vez de un APK.
 4. Regenera el catálogo con los APK en una carpeta local:
 
 ```bash

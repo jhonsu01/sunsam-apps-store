@@ -96,7 +96,9 @@
     "shots_lang_note": "As capturas são exibidas no idioma original do app.",
     "lb_close": "Fechar",
     "lb_prev": "Anterior",
-    "lb_next": "Próxima"
+    "lb_next": "Próxima",
+    "btn_get_play": "Instalar pelo Google Play",
+    "meta_distribution": "Distribuição"
   },
   "labels": {
     "Propietaria": "Proprietária",
@@ -149,7 +151,7 @@
         "8 idiomas e modo escuro",
         "Android 9 ou superior"
       ],
-      "notes": "Em testes no Google Play (v0.6.2). O APK direto é a versão 0.6.1."
+      "notes": "Disponível apenas no Google Play."
     },
     "idpersonalsecure": {
       "tagline": "Sua carteira digital de documentos criptografada, sem nuvem",
@@ -280,9 +282,9 @@
         "Interruptor por site, pré-visualização e console de logs",
         "Compartilhe o endereço ou abra no Tor Browser",
         "Espanhol e inglês",
-        "1 site grátis; ilimitados com pagamento único nas lojas"
+        "1 site grátis; ilimitados com pagamento único no Google Play ou na Microsoft Store"
       ],
-      "notes": "Em análise no Google Play; já disponível na Microsoft Store. O instalador direto para Windows (.exe) não tem limite de sites."
+      "notes": "Disponível no Google Play e na Microsoft Store. O instalador direto para Windows (.exe) não tem limite de sites."
     }
   }
 }

@@ -96,7 +96,9 @@
     "shots_lang_note": "截图以应用的原始语言显示。",
     "lb_close": "关闭",
     "lb_prev": "上一张",
-    "lb_next": "下一张"
+    "lb_next": "下一张",
+    "btn_get_play": "从 Google Play 安装",
+    "meta_distribution": "发布渠道"
   },
   "labels": {
     "Propietaria": "专有",
@@ -149,7 +151,7 @@
         "8 种语言和深色模式",
         "Android 9 及以上"
       ],
-      "notes": "正在 Google Play 测试中（v0.6.2）。直接下载的 APK 为 0.6.1 版本。"
+      "notes": "仅在 Google Play 提供。"
     },
     "idpersonalsecure": {
       "tagline": "加密的数字证件夹，无需云端",
@@ -280,9 +282,9 @@
         "每个站点独立开关、预览和日志控制台",
         "分享地址或在 Tor 浏览器中打开",
         "西班牙语和英语",
-        "免费 1 个站点；在应用商店一次性付费即可无限制"
+        "免费 1 个站点；在 Google Play 或 Microsoft Store 一次性付费即可无限制"
       ],
-      "notes": "正在 Google Play 审核中；已在 Microsoft Store 上架。直接下载的 Windows 安装程序（.exe）没有站点数量限制。"
+      "notes": "已在 Google Play 和 Microsoft Store 上架。直接下载的 Windows 安装程序（.exe）没有站点数量限制。"
     }
   }
 }

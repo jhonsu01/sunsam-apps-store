@@ -96,7 +96,9 @@
     "shots_lang_note": "Les captures sont affichées dans la langue d'origine de l'appli.",
     "lb_close": "Fermer",
     "lb_prev": "Précédente",
-    "lb_next": "Suivante"
+    "lb_next": "Suivante",
+    "btn_get_play": "Installer depuis Google Play",
+    "meta_distribution": "Distribution"
   },
   "labels": {
     "Propietaria": "Propriétaire",
@@ -149,7 +151,7 @@
         "8 langues et mode sombre",
         "Android 9 ou supérieur"
       ],
-      "notes": "En test sur Google Play (v0.6.2). L'APK direct est la version 0.6.1."
+      "notes": "Disponible uniquement sur Google Play."
     },
     "idpersonalsecure": {
       "tagline": "Votre portefeuille numérique chiffré, sans cloud",
@@ -280,9 +282,9 @@
         "Interrupteur par site, aperçu et console de journaux",
         "Partagez l'adresse ou ouvrez-la dans Tor Browser",
         "Espagnol et anglais",
-        "1 site gratuit ; illimité avec un paiement unique dans les stores"
+        "1 site gratuit ; illimité avec un paiement unique sur Google Play ou Microsoft Store"
       ],
-      "notes": "En examen sur Google Play ; déjà disponible sur Microsoft Store. L'installateur Windows direct (.exe) n'a pas de limite de sites."
+      "notes": "Disponible sur Google Play et Microsoft Store. L'installateur Windows direct (.exe) n'a pas de limite de sites."
     }
   }
 }

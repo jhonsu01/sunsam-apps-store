@@ -23,7 +23,7 @@
       "repo": "https://github.com/jhonsu01/OpenCallShield",
       "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.opencallshield",
       "status": "play",
-      "updated": "2026-08-30",
+      "updated": "2026-10-20",
       "description": "Alternativa privada y descentralizada a Truecaller. OpenCallShield usa el servicio oficial de filtrado de llamadas de Android (10 o superior) para rechazar o silenciar llamadas SPAM antes de que suene el teléfono.\n\nTodo se decide en tu dispositivo con un motor de reglas y una base local; la lista de números reportados se sincroniza con un archivo público en GitHub al que cualquiera puede aportar.",
       "features": [
         "Bloqueo automático: rechaza o silencia las llamadas SPAM",
@@ -33,8 +33,16 @@
         "Historial de llamadas filtradas y reportes propios",
         "Código abierto (MIT), sin anuncios ni rastreadores"
       ],
-      "android": { "file": "OpenCallShield-v1.4.3-release.apk", "url": "https://github.com/jhonsu01/OpenCallShield/releases/download/v1.4.3/OpenCallShield-v1.4.3-release.apk", "minAndroid": "10" },
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp"],
+      "android": {
+        "file": "OpenCallShield-v1.5.0.apk",
+        "url": "https://github.com/jhonsu01/OpenCallShield/releases/download/v1.5.0/OpenCallShield-v1.5.0.apk",
+        "minAndroid": "10"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -43,7 +51,7 @@
       "tagline": "IA en tu teléfono detecta fotos sensibles y las cifra",
       "category": "seguridad",
       "license": "Propietaria",
-      "status": "review",
+      "status": "play",
       "updated": "2026-09-21",
       "description": "SafeVault analiza tu galería y tu cámara con modelos de IA que se ejecutan dentro del teléfono, decide qué imágenes son sensibles (documentos, tarjetas, capturas privadas) y las guarda en una bóveda cifrada con AES-256 que solo abre tu huella, el bloqueo del teléfono o tu contraseña.\n\nNo tiene servidor propio: la única conexión a internet es la descarga inicial de los modelos. Cero nube, cero cuentas.",
       "features": [
@@ -54,10 +62,21 @@
         "8 idiomas y modo oscuro",
         "Android 9 o superior"
       ],
-      "android": { "file": "SafeVault-v0.6.1.apk", "tag": "safevault-v0.6.1", "minAndroid": "9" },
-      "notes": "En pruebas de Google Play (v0.6.2). El APK directo es la versión 0.6.1.",
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp", "s4.webp", "s5.webp", "s6.webp"],
-      "cover": "cover.webp"
+      "android": {
+        "package": "com.jhonsu.safevault",
+        "minAndroid": "9"
+      },
+      "notes": "Disponible solo en Google Play.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp",
+        "s6.webp"
+      ],
+      "cover": "cover.webp",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu.safevault"
     },
     {
       "id": "idpersonalsecure",
@@ -75,9 +94,22 @@
         "Exportación e importación entre Android y Windows",
         "Offline-first y modo oscuro"
       ],
-      "android": { "file": "IDPersonalSecure-0.5.0.apk", "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.apk", "minAndroid": "8.0" },
-      "windows": { "label": "Instalador MSI", "version": "0.5.0", "size": 221110272, "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.msi" },
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp"],
+      "android": {
+        "file": "IDPersonalSecure-0.5.0.apk",
+        "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.apk",
+        "minAndroid": "8.0"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "0.5.0",
+        "size": 221110272,
+        "url": "https://github.com/jhonsu01/IDPersonalSecure/releases/download/v0.5.0/IDPersonalSecure-0.5.0.msi"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -98,10 +130,26 @@
         "Bóveda cifrada con PIN y copias de seguridad AES-256",
         "Versión para Windows (MSI)"
       ],
-      "android": { "file": "Documentos150-v1.0.6-android.apk", "tag": "docuscaner-v1.0.6", "minAndroid": "7.0" },
-      "windows": { "label": "Instalador MSI", "version": "1.0.6", "file": "Documentos150-v1.0.6-windows.msi", "tag": "docuscaner-v1.0.6" },
+      "android": {
+        "file": "Documentos150-v1.0.6-android.apk",
+        "tag": "docuscaner-v1.0.6",
+        "minAndroid": "7.0"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "1.0.6",
+        "file": "Documentos150-v1.0.6-windows.msi",
+        "tag": "docuscaner-v1.0.6"
+      },
       "notes": "El APK directo es la edición Documentos150 (paquete com.iddoc150), que se instala aparte de la versión de Google Play. La licencia ilimitada solo se compra desde Google Play.",
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp", "s4.webp", "s5.webp", "s6.webp"]
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp",
+        "s6.webp"
+      ]
     },
     {
       "id": "printorganize",
@@ -122,11 +170,29 @@
         "PNG, JPG, GIF, BMP, TIFF, WEBP y HEIC",
         "Disponible también en Microsoft Store"
       ],
-      "android": { "file": "PrintOrganize-1.1.1.apk", "tag": "printorganize-v1.1.1", "minAndroid": "7.0" },
-      "windows": { "label": "Instalador MSI", "version": "1.1.0", "file": "PrintOrganize-1.1.0.msi", "tag": "printorganize-v1.1.1" },
+      "android": {
+        "file": "PrintOrganize-1.1.1.apk",
+        "tag": "printorganize-v1.1.1",
+        "minAndroid": "7.0"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "1.1.0",
+        "file": "PrintOrganize-1.1.0.msi",
+        "tag": "printorganize-v1.1.1"
+      },
       "notes": "Instalada fuera de Google Play la compra integrada no funciona: para la licencia ilimitada instala desde Google Play o Microsoft Store.",
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp", "s4.webp"],
-      "desktopScreenshots": ["w1.webp", "w2.webp", "w3.webp"]
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp"
+      ],
+      "desktopScreenshots": [
+        "w1.webp",
+        "w2.webp",
+        "w3.webp"
+      ]
     },
     {
       "id": "compartirarchivosred",
@@ -144,10 +210,27 @@
         "Explorador de archivos integrado",
         "Android, Windows (MSI) y Linux (.deb)"
       ],
-      "android": { "file": "CompartirArchivosRED-0.7.0.apk", "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.apk", "minAndroid": "7.0" },
-      "windows": { "label": "Instalador MSI", "version": "0.7.0", "size": 59794296, "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.msi" },
-      "linux": { "label": "Paquete .deb (amd64)", "version": "0.7.0", "size": 32261610, "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0-amd64.deb" },
-      "screenshots": ["s1.webp", "s2.webp"],
+      "android": {
+        "file": "CompartirArchivosRED-0.7.0.apk",
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.apk",
+        "minAndroid": "7.0"
+      },
+      "windows": {
+        "label": "Instalador MSI",
+        "version": "0.7.0",
+        "size": 59794296,
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0.msi"
+      },
+      "linux": {
+        "label": "Paquete .deb (amd64)",
+        "version": "0.7.0",
+        "size": 32261610,
+        "url": "https://github.com/jhonsu01/CompartirArchivosRED/releases/download/v0.7.0/CompartirArchivosRED-0.7.0-amd64.deb"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -166,10 +249,22 @@
         "Emparejamiento por PIN de 6 dígitos",
         "Baja latencia y cursor visible en monitores virtuales"
       ],
-      "android": { "file": "OpenWirelessDisplay-0.2.1.apk", "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-0.2.1.apk", "minAndroid": "7.0" },
-      "windows": { "label": "Servidor para Windows (MSI)", "version": "0.2.1", "size": 59231680, "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-Server-0.2.1.msi" },
+      "android": {
+        "file": "OpenWirelessDisplay-0.2.1.apk",
+        "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-0.2.1.apk",
+        "minAndroid": "7.0"
+      },
+      "windows": {
+        "label": "Servidor para Windows (MSI)",
+        "version": "0.2.1",
+        "size": 59231680,
+        "url": "https://github.com/jhonsu01/OpenWirelessDisplay/releases/download/v0.2.1/OpenWirelessDisplay-Server-0.2.1.msi"
+      },
       "notes": "Necesita el servidor de Windows instalado en el PC.",
-      "screenshots": ["s1.webp", "s2.webp"],
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -189,8 +284,15 @@
         "Respaldos cifrados en .zip, sin nube",
         "Widget de inicio y compartir QR con un toque"
       ],
-      "android": { "file": "PayBio-v1.7.1.apk", "url": "https://github.com/jhonsu01/PayBioApp/releases/download/v1.7.1/PayBio-v1.7.1.apk", "minAndroid": "8.0" },
-      "screenshots": ["s1.webp", "s2.webp"],
+      "android": {
+        "file": "PayBio-v1.7.1.apk",
+        "url": "https://github.com/jhonsu01/PayBioApp/releases/download/v1.7.1/PayBio-v1.7.1.apk",
+        "minAndroid": "8.0"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -210,18 +312,48 @@
         "Autodescubrimiento del servidor en la red local",
         "Comprobantes firmados y auditoría completa"
       ],
-      "android": { "file": "TurnosDispensario-v0.7.1.apk", "label": "App del personal", "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.apk", "minAndroid": "7.0" },
+      "android": {
+        "file": "TurnosDispensario-v0.7.1.apk",
+        "label": "App del personal",
+        "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.apk",
+        "minAndroid": "7.0"
+      },
       "extraApks": [
-        { "file": "TurnosDispensario-Paciente-v0.7.1.apk", "label": "App del paciente", "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Paciente-v0.7.1.apk" },
-        { "file": "TurnosDispensario-Autoservicio-v0.7.1.apk", "label": "Autoservicio", "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Autoservicio-v0.7.1.apk" },
-        { "file": "TurnosDispensario-KioskoTV-v0.7.1.apk", "label": "Kiosko TV", "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-KioskoTV-v0.7.1.apk" }
+        {
+          "file": "TurnosDispensario-Paciente-v0.7.1.apk",
+          "label": "App del paciente",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Paciente-v0.7.1.apk"
+        },
+        {
+          "file": "TurnosDispensario-Autoservicio-v0.7.1.apk",
+          "label": "Autoservicio",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Autoservicio-v0.7.1.apk"
+        },
+        {
+          "file": "TurnosDispensario-KioskoTV-v0.7.1.apk",
+          "label": "Kiosko TV",
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-KioskoTV-v0.7.1.apk"
+        }
       ],
-      "windows": { "label": "Servidor y panel (MSI)", "version": "0.7.1", "size": 92479488, "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.msi" },
+      "windows": {
+        "label": "Servidor y panel (MSI)",
+        "version": "0.7.1",
+        "size": 92479488,
+        "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-v0.7.1.msi"
+      },
       "windowsExtra": [
-        { "label": "Asistente de módulo (MSI)", "version": "0.7.1", "size": 88875008, "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Asistente-v0.7.1.msi" }
+        {
+          "label": "Asistente de módulo (MSI)",
+          "version": "0.7.1",
+          "size": 88875008,
+          "url": "https://github.com/jhonsu01/TurnosDespachoDispensario/releases/download/v0.7.1/TurnosDispensario-Asistente-v0.7.1.msi"
+        }
       ],
       "notes": "Las apps Android necesitan el servidor de Windows en la misma red.",
-      "screenshots": ["s1.webp", "s2.webp"],
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -240,14 +372,35 @@
         "App dedicada para TV con arranque automático",
         "Offline-first con autodescubrimiento del servidor"
       ],
-      "android": { "file": "ReciclajeTurnero-v0.8.1.apk", "label": "App multirol", "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-v0.8.1.apk", "minAndroid": "7.0" },
+      "android": {
+        "file": "ReciclajeTurnero-v0.8.1.apk",
+        "label": "App multirol",
+        "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-v0.8.1.apk",
+        "minAndroid": "7.0"
+      },
       "extraApks": [
-        { "file": "ReciclajeCliente-v0.8.1.apk", "label": "App del cliente", "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeCliente-v0.8.1.apk" },
-        { "file": "ReciclajeKiosko-v0.8.1.apk", "label": "Reciclaje TV", "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeKiosko-v0.8.1.apk" }
+        {
+          "file": "ReciclajeCliente-v0.8.1.apk",
+          "label": "App del cliente",
+          "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeCliente-v0.8.1.apk"
+        },
+        {
+          "file": "ReciclajeKiosko-v0.8.1.apk",
+          "label": "Reciclaje TV",
+          "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeKiosko-v0.8.1.apk"
+        }
       ],
-      "windows": { "label": "Servidor y panel (MSI)", "version": "0.8.1", "size": 92065792, "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-0.8.1.msi" },
+      "windows": {
+        "label": "Servidor y panel (MSI)",
+        "version": "0.8.1",
+        "size": 92065792,
+        "url": "https://github.com/jhonsu01/ReciclajeApp/releases/download/v0.8.1/ReciclajeTurnero-0.8.1.msi"
+      },
       "notes": "Las apps Android necesitan el servidor de Windows en la misma red.",
-      "screenshots": ["s1.webp", "s2.webp"],
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -267,12 +420,28 @@
         "Panel de administración para Windows",
         "Código abierto y gratuito"
       ],
-      "android": { "file": "Klanly-0.8.0.apk", "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-0.8.0.apk", "minAndroid": "7.0" },
+      "android": {
+        "file": "Klanly-0.8.0.apk",
+        "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-0.8.0.apk",
+        "minAndroid": "7.0"
+      },
       "extraApks": [
-        { "file": "Klanly-TV-0.8.2.apk", "label": "Klanly TV", "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-TV-0.8.2.apk" }
+        {
+          "file": "Klanly-TV-0.8.2.apk",
+          "label": "Klanly TV",
+          "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-TV-0.8.2.apk"
+        }
       ],
-      "windows": { "label": "Panel de administración (MSI)", "version": "0.6.0", "size": 1527808, "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-Admin-v0.6.0.msi" },
-      "screenshots": ["s1.webp", "s2.webp"],
+      "windows": {
+        "label": "Panel de administración (MSI)",
+        "version": "0.6.0",
+        "size": 1527808,
+        "url": "https://github.com/jhonsu01/klanly/releases/download/v0.8.0/Klanly-Admin-v0.6.0.msi"
+      },
+      "screenshots": [
+        "s1.webp",
+        "s2.webp"
+      ],
       "cover": "cover.webp"
     },
     {
@@ -292,10 +461,26 @@
         "Voces del sistema con tres ritmos de lectura",
         "Dos cuentos gratis al día; pago único para ilimitados (Google Play)"
       ],
-      "android": { "file": "cuentero-infinito-0.1.15.apk", "label": "Cliente WiFi para el PC", "tag": "cuentero-v0.1.15", "minAndroid": "7.0" },
-      "windows": { "label": "Cuentero para Windows (MSI)", "version": "0.1.15", "file": "CuenteroInfinito-0.1.15.msi", "tag": "cuentero-v0.1.15" },
+      "android": {
+        "file": "cuentero-infinito-0.1.15.apk",
+        "label": "Cliente WiFi para el PC",
+        "tag": "cuentero-v0.1.15",
+        "minAndroid": "7.0"
+      },
+      "windows": {
+        "label": "Cuentero para Windows (MSI)",
+        "version": "0.1.15",
+        "file": "CuenteroInfinito-0.1.15.msi",
+        "tag": "cuentero-v0.1.15"
+      },
       "notes": "El APK directo es el cliente WiFi que se conecta al PC con el Cuentero de Windows. La app que genera los cuentos en el propio teléfono está en Google Play.",
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp", "s4.webp", "s5.webp"]
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp",
+        "s5.webp"
+      ]
     },
     {
       "id": "onionhost",
@@ -304,8 +489,8 @@
       "category": "herramientas",
       "license": "Propietaria",
       "msStoreUrl": "https://apps.microsoft.com/detail/9pdgf2wst45f",
-      "status": "review",
-      "updated": "2026-09-17",
+      "status": "play",
+      "updated": "2026-09-23",
       "description": "OnionHost convierte tu página web o portafolio en un sitio de la red Tor con su propia dirección .onion, accesible desde cualquier parte del mundo. Sin registros, sin dominios que comprar y sin conocimientos técnicos: eliges la carpeta de tu web, enciendes el interruptor y tu sitio queda en línea.\n\nEl propio dispositivo sirve el sitio: no se sube nada a ningún servidor.",
       "features": [
         "Dirección .onion propia (servicios ocultos v3) generada en tu dispositivo",
@@ -313,14 +498,31 @@
         "Interruptor por sitio, vista previa y consola de registros",
         "Comparte la dirección o ábrela en Tor Browser",
         "Español e inglés",
-        "1 sitio gratis; ilimitados con pago único en las tiendas"
+        "1 sitio gratis; ilimitados con pago único en Google Play o Microsoft Store"
       ],
-      "android": { "file": "OnionHost-v0.3.3-release.apk", "tag": "onionhost-v0.4.0", "minAndroid": "8.0" },
-      "windows": { "label": "Instalador para Windows (.exe)", "version": "0.4.0", "file": "OnionHost.Setup.0.4.0.exe", "tag": "onionhost-v0.4.0" },
-      "notes": "En revisión en Google Play; ya disponible en Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
-      "screenshots": ["s1.webp", "s2.webp", "s3.webp", "s4.webp"],
-      "desktopScreenshots": ["s5.webp"],
-      "cover": "cover.webp"
+      "android": {
+        "file": "OnionHost-v0.3.4-release.apk",
+        "tag": "onionhost-android-v0.3.4",
+        "minAndroid": "8.0"
+      },
+      "windows": {
+        "label": "Instalador para Windows (.exe)",
+        "version": "0.4.0",
+        "file": "OnionHost.Setup.0.4.0.exe",
+        "tag": "onionhost-v0.4.0"
+      },
+      "notes": "Disponible en Google Play y Microsoft Store. El instalador directo para Windows (.exe) no tiene límite de sitios.",
+      "screenshots": [
+        "s1.webp",
+        "s2.webp",
+        "s3.webp",
+        "s4.webp"
+      ],
+      "desktopScreenshots": [
+        "s5.webp"
+      ],
+      "cover": "cover.webp",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost"
     }
   ]
 }
