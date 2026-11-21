@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-13",
+  "generated": "2026-11-21",
   "store": {
     "name": "Sunsam Apps Store",
     "author": "Jhon Supelano (jhonsu01)",
@@ -174,9 +174,7 @@
         "s1.webp",
         "s2.webp",
         "s3.webp",
-        "s4.webp",
-        "s5.webp",
-        "s6.webp"
+        "s4.webp"
       ],
       "playOnly": true,
       "openSource": false
@@ -210,12 +208,15 @@
         "s1.webp",
         "s2.webp",
         "s3.webp",
-        "s4.webp"
+        "s4.webp",
+        "s5.webp"
       ],
+      "cover": "cover.webp",
       "desktopScreenshots": [
         "w1.webp",
         "w2.webp",
-        "w3.webp"
+        "w3.webp",
+        "w4.webp"
       ],
       "playOnly": true,
       "openSource": false
@@ -596,6 +597,7 @@
         "s4.webp",
         "s5.webp"
       ],
+      "cover": "cover.webp",
       "playOnly": true,
       "openSource": false
     },
@@ -626,14 +628,12 @@
       "screenshots": [
         "s1.webp",
         "s2.webp",
-        "s3.webp",
-        "s4.webp"
+        "s3.webp"
       ],
-      "desktopScreenshots": [
-        "s5.webp"
-      ],
-      "cover": "cover.webp",
       "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost",
+      "desktopScreenshots": [
+        "w1.webp"
+      ],
       "playOnly": true,
       "openSource": false
     }

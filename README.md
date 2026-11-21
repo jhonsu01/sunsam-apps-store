@@ -46,7 +46,7 @@ Certificado de la app de la tienda (SHA-256):
 ## Catálogo
 
 <!-- catalogo:inicio -->
-_Generado desde `docs/apps.json` el 2026-11-13 con `tools/readme_catalog.py`._
+_Generado desde `docs/apps.json` el 2026-11-21 con `tools/readme_catalog.py`._
 
 | App | Versión | Plataformas | Descarga | Tiendas y código |
 | --- | --- | --- | --- | --- |

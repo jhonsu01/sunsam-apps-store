@@ -205,7 +205,7 @@
       </div></a>`;
   }
   function fallbackBg(id) {
-    const palettes = { cuentero: '#1f1633,#3b2a5c', docuscaner: '#27211d,#c2410c', printorganize: '#4338ca,#7c3aed' };
+    const palettes = { cuentero: '#1f1633,#3b2a5c', docuscaner: '#06283d,#0e7490', onionhost: '#1e1038,#6d28d9', printorganize: '#4338ca,#7c3aed' };
     const [c1, c2] = (palettes[id] || '#f97316,#e11d48').split(',');
     return `linear-gradient(135deg, ${c1}, ${c2})`;
   }

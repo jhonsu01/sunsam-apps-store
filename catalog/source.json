@@ -139,9 +139,7 @@
         "s1.webp",
         "s2.webp",
         "s3.webp",
-        "s4.webp",
-        "s5.webp",
-        "s6.webp"
+        "s4.webp"
       ]
     },
     {
@@ -172,12 +170,15 @@
         "s1.webp",
         "s2.webp",
         "s3.webp",
-        "s4.webp"
+        "s4.webp",
+        "s5.webp"
       ],
+      "cover": "cover.webp",
       "desktopScreenshots": [
         "w1.webp",
         "w2.webp",
-        "w3.webp"
+        "w3.webp",
+        "w4.webp"
       ]
     },
     {
@@ -458,7 +459,8 @@
         "s3.webp",
         "s4.webp",
         "s5.webp"
-      ]
+      ],
+      "cover": "cover.webp"
     },
     {
       "id": "onionhost",
@@ -486,14 +488,12 @@
       "screenshots": [
         "s1.webp",
         "s2.webp",
-        "s3.webp",
-        "s4.webp"
+        "s3.webp"
       ],
+      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost",
       "desktopScreenshots": [
-        "s5.webp"
-      ],
-      "cover": "cover.webp",
-      "playUrl": "https://play.google.com/store/apps/details?id=com.jhonsu01.onionhost"
+        "w1.webp"
+      ]
     }
   ]
 }
